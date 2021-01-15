@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{RXBc:function(e,t,n){"use strict";n.r(t);var o=n("q1tI"),r=function(){return React.createElement("div",null,"my starter component test")},a={color:"#232129",padding:"96px",fontFamily:"-apple-system, Roboto, sans-serif, serif"};t.default=function(){return o.createElement("main",{style:a},o.createElement(r,null))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-9bfdbf5df8148e8754ca.js.map
