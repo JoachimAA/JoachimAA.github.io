@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{RXBc:function(e,n,t){"use strict";t.r(n);var o=t("q1tI"),r=t.n(o),a=function(){return r.a.createElement("div",null,"my starter component test")},s={color:"#232129",padding:"96px",fontFamily:"-apple-system, Roboto, sans-serif, serif"};n.default=function(){return o.createElement("main",{style:s},o.createElement(a,null))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-76435dd2eabbf8173d06.js.map
