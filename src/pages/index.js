@@ -1,20 +1,15 @@
-import * as React from "react"
-import StarterComponent from "../components/StarterComponent"
+import * as React from "react";
+import StarterComponent from "../components/StarterComponent";
+import { Header } from "../components/Header.js";
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-
-// markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <StarterComponent/>
+    <main>
+      <Header />
+      this is home
+      <StarterComponent />
     </main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
