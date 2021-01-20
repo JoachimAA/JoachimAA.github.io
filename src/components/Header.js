@@ -2,9 +2,14 @@ import React from "react";
 import styles from "./header.module.css";
 import NavLink from "./NavLink";
 
+import "../css/typography.css";
+
 export const Header = () => {
   return (
-    <div className={styles.headerContainer}>
+    <div
+      style={{ fontFamily: "Montserrat" }}
+      className={styles.headerContainer}
+    >
       <div>
         <NavLink path="/">Home</NavLink>
       </div>
