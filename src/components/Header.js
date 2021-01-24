@@ -14,9 +14,14 @@ export const Header = () => {
         <NavLink path="/">Home</NavLink>
       </div>
       <div>
+        <NavLink path="/shop">Shop</NavLink>
+      </div>
+      <div>
         <NavLink path="/about">About</NavLink>
       </div>
-      <div>Header tab</div>
+      <div>
+        <NavLink path="/about">Contact</NavLink>
+      </div>
     </div>
   );
 };
