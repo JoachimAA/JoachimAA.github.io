@@ -1,5 +1,4 @@
 import * as React from "react";
-import StarterComponent from "../components/StarterComponent";
 import { Header } from "../components/Header.js";
 import HomeTitle from "../components/HomeTitle";
 import HomeDetails from "../components/HomeDetails";

@@ -16,6 +16,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
     "gatsby": "^2.31.0",
     "prettier": "^2.2.1",
     "react": "^16.13.1",

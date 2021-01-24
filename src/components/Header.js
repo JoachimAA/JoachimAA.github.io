@@ -20,7 +20,7 @@ export const Header = () => {
         <NavLink path="/about">About</NavLink>
       </div>
       <div>
-        <NavLink path="/about">Contact</NavLink>
+        <NavLink path="/contact">Contact</NavLink>
       </div>
     </div>
   );
