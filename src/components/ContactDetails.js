@@ -1,22 +1,34 @@
 import React from "react";
 import style from "./contactDetails.module.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 const ContactDetails = () => {
   return (
-    <div style={{ fontFamily: "Montserrat" }}>
+    <div style={{ fontFamily: "Montserrat" }} className={style.container}>
       <div className={style.message}>
         Please get in touch to discuss personalization or ideas that you would
-        like me to design for you
+        like me to design for you.
       </div>
-      <div>Email: artheypaperdesigns@hotmail.com</div>
-      <div style={{ display: "flex" }}>
-        <div>
+      <div className={style.contactContainer}>
+        <div className={style.icon}>
+          <MailOutlineIcon />
+        </div>
+        <div className={style.contactInfo}>artheypaperdesigns@hotmail.com</div>
+      </div>
+      <div className={style.contactContainer}>
+        <div className={style.icon}>
           <InstagramIcon />
         </div>
-        <div>Instagram: @arthey-paper-designs</div>
+        <div className={style.contactInfo}>@arthey-paper-designs</div>
       </div>
-      <div>Facebook: </div>
+      <div className={style.contactContainer}>
+        <div className={style.icon}>
+          <FacebookIcon />
+        </div>
+        <div className={style.contactInfo}>Facebook:</div>
+      </div>
     </div>
   );
 };
