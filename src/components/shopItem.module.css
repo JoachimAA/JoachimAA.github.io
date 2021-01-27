@@ -1,12 +1,40 @@
 .image {
-  height: 100px;
-  width: 100px;
   border: solid black 1px;
 }
 
+/* was 100% width for 1 square per row */
+
 .container {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 23.5%;
+  background: firebrick;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+/* @media (min-width: 48rem) {
+  .container {
+    width: 49%;
+  }
+
+  .conatiner:nth-child(odd) {
+    background: grey;
+    margin-right: 2%;
+  }
+} */
+
+/* @media (min-width: 62rem) {
+  .container {
+    width: 23.5%;
+  }
+
+  .container:not(:nth-child(4n)) {
+    background: grey;
+    margin-right: 2%;
+  }
+} */
+
+.container:before {
+  content: "";
+  float: left;
+  padding-top: 100%;
 }

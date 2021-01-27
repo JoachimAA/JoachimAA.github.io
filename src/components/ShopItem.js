@@ -3,7 +3,7 @@ import style from "./shopItem.module.css";
 
 const ShopItem = () => {
   return (
-    <div className={style.container}>
+    <div style={{ fontFamily: "Montserrat" }} className={style.container}>
       <div className={style.image}>picture box</div>
       <div>name of item</div>
       <div>cost</div>
