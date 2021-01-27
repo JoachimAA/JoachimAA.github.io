@@ -1,13 +1,14 @@
 import React from "react";
 import ShopItem from "./ShopItem";
 import style from "./shopItems.module.css";
+import { shop } from "../data";
 
 const ShopItems = () => {
-  const itemArray = [0, 1, 2, 3, 4];
+  const itemArray = shop.shopItems;
   return (
     <div className={style.container}>
       {itemArray.map((item) => {
-        return <ShopItem />;
+        return <ShopItem item={item} />;
       })}
     </div>
   );
