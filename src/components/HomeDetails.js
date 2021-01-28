@@ -2,12 +2,11 @@ import React from "react";
 import style from "./homeDetails.module.css";
 import NavButton from "./common/NavButton";
 import MeSrc from "../images/me.png";
-import LogoSrc from "../images/logo.png";
-import "../css/typography.css";
+import LogoSrc from "../images/logo.svg";
 
 const HomeDetails = () => {
   return (
-    <div className={style.container} style={{ fontFamily: "Montserrat" }}>
+    <div className={style.container}>
       <div>
         <div
           style={{ backgroundImage: `url(${LogoSrc})` }}

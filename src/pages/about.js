@@ -1,15 +1,15 @@
 import * as React from "react";
 import { Header } from "../components/Header.js";
 import AboutDetails from "../components/AboutDetails";
-
-// styles
+import Footer from "../components/Footer";
 
 // markup
 const About = () => {
   return (
-    <div>
+    <div style={{ fontFamily: "Montserrat" }}>
       <Header />
       <AboutDetails />
+      <Footer />
     </div>
   );
 };

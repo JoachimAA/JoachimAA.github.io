@@ -6,7 +6,7 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 const ContactDetails = () => {
   return (
-    <div style={{ fontFamily: "Montserrat" }} className={style.container}>
+    <div className={style.container}>
       <div className={style.message}>
         Please get in touch to discuss personalization or ideas that you would
         like me to design for you.

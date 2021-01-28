@@ -41,3 +41,17 @@
   float: left;
   padding-top: 100%;
 }
+
+.name {
+  margin-top: 5px;
+}
+
+.priceFrom {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.priceContainer {
+  display: flex;
+  font-weight: 600;
+}

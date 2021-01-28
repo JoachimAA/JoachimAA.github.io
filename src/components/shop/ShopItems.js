@@ -1,13 +1,17 @@
 import React from "react";
 import ShopItem from "./ShopItem";
 import style from "./shopItems.module.css";
-import { shop } from "../data";
+import { shop } from "../../data";
 
 const ShopItems = () => {
-  const itemArray = shop.shopItems;
+  const shopCategories = shop.shopCategories;
+  let shopItems = [];
+  for (const category of shopCategories) {
+    shopItems = [...shopItems, ...category.items];
+  }
   return (
     <div className={style.container}>
-      {itemArray.map((item) => {
+      {shopItems.map((item) => {
         return <ShopItem item={item} />;
       })}
     </div>

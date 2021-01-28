@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./homeTitle.module.css";
-import "../css/typography.css";
 import BannerSrc from "../images/banner.png";
 
 const HomeTitle = () => {

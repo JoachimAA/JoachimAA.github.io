@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: 350px;
+  background-color: #f6f6f6;
+  margin: 70px 0 0 0;
+}
+
+.categories {
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.categoryContainer {
+  font-size: 19px;
+  font-weight: 600;
+  width: 33%;
+}
+
+.categoriesContainer {
+  padding: 35px 70px 0 80px;
+  display: flex;
+  height: 220px;
+}
+
+.categoryNamesContainer {
+  margin-top: 12px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.socialContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin: 0 20px 0 20px;
+}
+
+.logo {
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: #f595a5;
+}
