@@ -8,8 +8,8 @@ import LogoSrc from "../images/logo.svg";
 
 const IndexPage = () => {
   return (
-    <main style={{ fontFamily: "Montserrat", backgroundColor: "#f6f6f6" }}>
-      <div
+    <main style={{ fontFamily: "Montserrat" }}>
+      {/* <div
         style={{
           display: "flex",
           justifyContent: "center",
@@ -30,8 +30,8 @@ const IndexPage = () => {
           height: "50vh",
         }}
       />
-      <div style={{ backgroundColor: "#f6f6f6", height: "12vh" }} />
-      {/* <div
+      <div style={{ backgroundColor: "#f6f6f6", height: "12vh" }} /> */}
+      <div
         style={{ height: "100vh", display: "flex", flexDirection: "column" }}
       >
         <Header />
@@ -40,7 +40,7 @@ const IndexPage = () => {
         </div>
       </div>
       <HomeDetails />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 };
