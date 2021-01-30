@@ -4,7 +4,6 @@ import style from "./shopItem.module.css";
 const ShopItem = ({ item }) => {
   const sampleObj = item.tiers.find((obj) => obj.name === "Sample");
   const sampleCost = sampleObj ? sampleObj.price : "Unknown";
-  console.log(sampleCost);
   const path = "src/images/logo.svg";
   return (
     <div style={{ fontFamily: "rat" }} className={style.container}>

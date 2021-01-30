@@ -16,7 +16,9 @@ const Footer = () => {
           Shop
           <div className={style.categoryNamesContainer}>
             {shopCategories.map((category) => (
-              <div className={style.categories}>{category.name}</div>
+              <div className={style.categories} key={category.name}>
+                {category.name}
+              </div>
             ))}
           </div>
         </div>

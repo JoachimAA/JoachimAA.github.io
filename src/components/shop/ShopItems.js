@@ -12,7 +12,7 @@ const ShopItems = () => {
   return (
     <div className={style.container}>
       {shopItems.map((item) => {
-        return <ShopItem item={item} />;
+        return <ShopItem item={item} key={item.name} />;
       })}
     </div>
   );

@@ -1,7 +1,6 @@
 import * as React from "react";
-import { Header } from "../components/Header.js";
 import ShopDetails from "../components/shop/ShopDetails";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 // styles
 
@@ -9,9 +8,9 @@ import Footer from "../components/Footer";
 const Shop = () => {
   return (
     <div style={{ fontFamily: "Montserrat" }}>
-      <Header />
-      <ShopDetails />
-      <Footer />
+      <Layout>
+        <ShopDetails />
+      </Layout>
     </div>
   );
 };

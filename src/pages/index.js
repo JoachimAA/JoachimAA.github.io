@@ -1,12 +1,12 @@
 import * as React from "react";
-import { Header } from "../components/Header.js";
 import HomeTitle from "../components/HomeTitle";
 import HomeDetails from "../components/HomeDetails";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 import "../css/typography.css";
-import LogoSrc from "../images/logo.svg";
+import { graphql } from "gatsby";
+// import LogoSrc from "../images/logo.svg";
 
-const IndexPage = () => {
+const Home = ({ data }) => {
   return (
     <main style={{ fontFamily: "Montserrat" }}>
       {/* <div
@@ -31,18 +31,28 @@ const IndexPage = () => {
         }}
       />
       <div style={{ backgroundColor: "#f6f6f6", height: "12vh" }} /> */}
-      <div
-        style={{ height: "100vh", display: "flex", flexDirection: "column" }}
-      >
-        <Header />
-        <div style={{ flex: "1", overflow: "auto" }}>
-          <HomeTitle />
+      <Layout>
+        <div
+          style={{ height: "100vh", display: "flex", flexDirection: "column" }}
+        >
+          <div style={{ flex: "1", overflow: "auto" }}>
+            <HomeTitle title={data.site.siteMetadata.title} />
+          </div>
         </div>
-      </div>
-      <HomeDetails />
-      <Footer />
+        <HomeDetails />
+      </Layout>
     </main>
   );
 };
 
-export default IndexPage;
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
+
+export default Home;

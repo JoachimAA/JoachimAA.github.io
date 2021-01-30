@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./header.module.css";
 import NavLink from "./NavLink";
 
-export const Header = () => {
+const Header = () => {
   return (
     <div
       style={{ fontFamily: "Montserrat" }}
@@ -23,3 +23,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;

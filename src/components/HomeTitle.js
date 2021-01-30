@@ -2,7 +2,7 @@ import React from "react";
 import style from "./homeTitle.module.css";
 import BannerSrc from "../images/banner.png";
 
-const HomeTitle = () => {
+const HomeTitle = ({ title }) => {
   return (
     <div
       style={{
@@ -11,7 +11,7 @@ const HomeTitle = () => {
       }}
       className={style.name}
     >
-      Arthey Paper Designs
+      {title}
     </div>
   );
 };
