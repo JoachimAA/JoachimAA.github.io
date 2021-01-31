@@ -1,12 +1,11 @@
 import React from "react";
 import ShopItem from "./ShopItem";
 import style from "./shopItems.module.css";
+import { GetLastAreaOnUrl } from "../../utils/helpers";
 const data = require("../../data.json");
 
 const ShopItems = () => {
-  const urlPath = window.location.pathname;
-  console.log("");
-  const shopCategorySlug = urlPath.substring(urlPath.lastIndexOf("/") + 1);
+  const shopCategorySlug = GetLastAreaOnUrl(window.location.pathname);
   const shopCategories = data.shopCategories;
   let shopItems = [];
   for (const category of shopCategories) {

@@ -5,7 +5,7 @@
       "slug": "wedding-stationery",
       "items": [
         {
-          "name": "Modern Personalised Vellum Wedding Invitation Suite",
+          "name": "Classic Personalised Wedding Invitation Suite",
           "tiers": [
             {
               "name": "Sample",
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "name": "Modern Personalised Save the Date",
+          "name": "Classic Personalised Save the Date",
           "tiers": [
             {
               "name": "Sample",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "name": "Modern Personalised Order of Service",
+          "name": "Classic Personalised Order of Service",
           "tiers": [
             {
               "name": "Sample",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "name": "Modern Personalised Wedding Menu with Vellum Place Name Card",
+          "name": "Classic Personalised Wedding Menu with Place Name Card",
           "tiers": [
             {
               "name": "Sample",
@@ -89,7 +89,7 @@
           ]
         },
         {
-          "name": "Modern wedding Favour Boxes",
+          "name": "Classic Wedding Favour Boxes",
           "tiers": [
             {
               "name": "Sample",
@@ -114,22 +114,116 @@
     {
       "name": "Bridal Shower",
       "slug": "bridal-shower",
-      "items": []
+      "items": [
+        {
+          "name": "Floral Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Bride-to-bee Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Baby Shower",
       "slug": "baby-shower",
-      "items": []
+      "items": [
+        {
+          "name": "Rainbow Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Pink Stars Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Blue Stars Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Announcement Cards",
       "slug": "announcement-cards",
-      "items": []
+      "items": [
+        {
+          "name": "Eucalyptus New Address Card",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Paint Strips New Address Card",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Invitations",
       "slug": "invitations",
-      "items": []
+      "items": [
+        {
+          "name": "Gold Glitter Brithday Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Rose Gold Birthday Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Floral Birthday Invitation",
+          "tiers": [
+            {
+              "name": "20",
+              "price": 20.0
+            }
+          ]
+        }
+      ]
     }
   ]
 }

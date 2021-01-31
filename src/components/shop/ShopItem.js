@@ -13,7 +13,7 @@ const ShopItem = ({ item }) => {
       <div className={style.name}>{item.name}</div>
       <div className={style.priceContainer}>
         <div className={style.priceFrom}>From</div>
-        <div>{"£" + sampleCost.toFixed(2)}</div>
+        <div>{sampleCost === "Unknown" ? "" : "£" + sampleCost.toFixed(2)}</div>
       </div>
     </div>
   );
