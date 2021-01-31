@@ -5,10 +5,14 @@ import style from "./shopHeader.module.css";
 const data = require("../../data.json");
 
 const ShopHeader = () => {
+  const slug = GetLastAreaOnUrl(window.location.pathname);
   const shopCat = data.shopCategories.find(
-    (category) => category.slug === GetLastAreaOnUrl(window.location.pathname)
+    (category) => category.slug === slug
   );
-  return <div className={style.container}>{shopCat.name}</div>;
+  const isShopHome = slug === "" || slug === "shop";
+  return (
+    <div className={style.container}>{isShopHome ? "Shop" : shopCat.name}</div>
+  );
 };
 
 export default ShopHeader;
