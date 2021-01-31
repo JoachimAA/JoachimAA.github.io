@@ -6,3 +6,12 @@
   align-items: center;
   background-color: #edd1d5;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.hoverText {
+  margin-top: 8px;
+}
