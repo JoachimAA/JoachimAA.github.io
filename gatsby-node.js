@@ -1,7 +1,19 @@
-exports.onCreateNode = ({ node }) => {
-  if (node.internal.type === `File`) {
-    if (node.internal.description === "src/data.js") {
-      consol.log("data file -> ", node.internal.description);
-    }
-  }
+const { createFilePath } = require(`gatsby-source-filesystem`);
+const data = require("./src/data.json");
+const path = require("path");
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createPage } = actions;
+
+  const template = path.resolve("./src/pages/shop.js");
+
+  data.shopCategories.forEach((category) => {
+    var path = "/shop/" + category.slug;
+    console.log("creating page -> ", path);
+    createPage({
+      path,
+      component: template,
+      context: category.name,
+    });
+  });
 };

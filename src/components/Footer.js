@@ -3,12 +3,13 @@ import style from "./footer.module.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import { shop } from "../data";
 import LogoSrc from "../images/logo.svg";
 import { Link } from "gatsby";
 
+const data = require("../data.json");
+
 const Footer = () => {
-  const shopCategories = shop.shopCategories;
+  const shopCategories = data.shopCategories;
   return (
     <div className={style.container}>
       <div className={style.categoriesContainer}>
