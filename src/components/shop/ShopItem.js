@@ -6,7 +6,7 @@ const ShopItem = ({ item }) => {
   const sampleCost = sampleObj ? sampleObj.price : "Unknown";
   const path = "src/images/logo.svg";
   return (
-    <div style={{ fontFamily: "rat" }} className={style.container}>
+    <div className={style.container}>
       <div className={style.image} style={{ backgroundImage: `url(${path})` }}>
         picture box
       </div>

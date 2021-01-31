@@ -18,7 +18,9 @@ const Footer = () => {
           <div className={style.categoryNamesContainer}>
             {shopCategories.map((category) => (
               <div className={style.categories} key={category.name}>
-                {category.name}
+                <Link className={style.link} to={"/shop/" + category.slug}>
+                  {category.name}
+                </Link>
               </div>
             ))}
           </div>

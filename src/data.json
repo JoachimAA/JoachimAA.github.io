@@ -1,8 +1,8 @@
 {
   "shopCategories": [
     {
-      "name": "Wedding Stationary",
-      "slug": "wedding-stationary",
+      "name": "Wedding Stationery",
+      "slug": "wedding-stationery",
       "items": [
         {
           "name": "Modern Personalised Vellum Wedding Invitation Suite",
@@ -127,8 +127,8 @@
       "items": []
     },
     {
-      "name": "Invatations",
-      "slug": "invatations",
+      "name": "Invitations",
+      "slug": "invitations",
       "items": []
     }
   ]
