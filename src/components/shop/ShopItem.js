@@ -1,22 +1,16 @@
 import React from "react";
 import style from "./shopItem.module.css";
 import { Link } from "gatsby";
+import { TurnIntoSlug } from "../../utils/helpers";
 
 const ShopItem = ({ item, categorySlug }) => {
   const sampleObj = item.tiers.find((obj) => obj.name === "Sample");
   const sampleCost = sampleObj ? sampleObj.price : "Unknown";
+  const itemSlug = TurnIntoSlug(item.name);
   const path = "src/images/logo.svg";
   return (
     <div className={style.container}>
-      <Link
-        to={
-          "/shop/" +
-          categorySlug +
-          "/" +
-          item.name.replace(/\s+/g, "-").toLowerCase()
-        }
-        state={{ item }}
-      >
+      <Link to={"/shop/" + categorySlug + "/" + itemSlug} state={{ item }}>
         <div
           className={style.image}
           style={{ backgroundImage: `url(${path})` }}

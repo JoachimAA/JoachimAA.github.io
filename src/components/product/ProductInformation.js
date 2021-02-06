@@ -3,24 +3,29 @@ import style from "./productInformation.module.css";
 
 const ProductInformation = ({ item }) => {
   const [tierSelected, setTierSelected] = useState(item.tiers[0].name);
-  const price = item.tiers.find((tier) => tier.name === tierSelected).price;
+  const findPrice = item.tiers.find((tier) => tier.name === tierSelected);
+  const price = findPrice ? findPrice.price : "Unknown";
   console.log("tierSelected -> ", tierSelected);
   return (
     <div>
       <div className={style.titleText}>{item.name}</div>
-      <div className={style.titleText}>{price}</div>
+      <div className={style.titleText}>
+        {typeof price === "number" ? "£" + price.toFixed(2) : price}
+      </div>
       <div className={style.divider} />
       <div style={{ marginBottom: "5px" }}>Quantity :</div>
       <div className={style.quantitySelector}>
         {item.tiers.map((tier) => (
           <div
+            key={tier.name}
             className={style.tierBox}
             style={{
-              backgroundColor: tier.name === tierSelected ? "#edd1d5" : "none",
+              backgroundColor:
+                tier.name === tierSelected ? "#edd1d5" : "#ffffff",
             }}
             onClick={() => {
               console.log("clicking tier selcted -> ", tier.name);
-              setTierSelected(item.name);
+              setTierSelected(tier.name);
             }}
           >
             {tier.name}

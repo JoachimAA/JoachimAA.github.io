@@ -16,7 +16,7 @@ const Product = ({ location }) => {
         </div>
         <div className={style.moreImagesContainer}>
           {pictureArray.map((picture) => (
-            <div className={style.moreImageContainer}>
+            <div key={picture} className={style.moreImageContainer}>
               <div className={style.moreImageContent}>{picture}</div>
             </div>
           ))}

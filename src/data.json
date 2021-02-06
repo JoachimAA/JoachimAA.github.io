@@ -26,7 +26,7 @@
           ]
         },
         {
-          "name": "Classic Personalised Save the Date",
+          "name": "Save the Date | Classic",
           "tiers": [
             {
               "name": "Sample",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "name": "Classic Personalised Order of Service",
+          "name": "Order of Service | Classic",
           "tiers": [
             {
               "name": "Sample",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "name": "Classic Personalised Wedding Menu with Place Name Card",
+          "name": "Menu with Name Card | Classic",
           "tiers": [
             {
               "name": "Sample",
@@ -89,7 +89,28 @@
           ]
         },
         {
-          "name": "Classic Wedding Favour Boxes",
+          "name": "Advice to the Bride and Groom Cards | Classic",
+          "tiers": [
+            {
+              "name": "Sample",
+              "price": 3.0
+            },
+            {
+              "name": "25",
+              "price": 75.0
+            },
+            {
+              "name": "50",
+              "price": 150.0
+            },
+            {
+              "name": "100",
+              "price": 300.0
+            }
+          ]
+        },
+        {
+          "name": "Favour Boxes | Classic",
           "tiers": [
             {
               "name": "Sample",

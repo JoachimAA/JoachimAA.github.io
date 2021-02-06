@@ -5,9 +5,9 @@ export const GetLastAreaOnUrl = (path) => {
 
 export const TurnIntoSlug = (name) => {
   let path = name;
-  const specialCharacterIndex = path.indexOf("|");
-  if (specialCharacterIndex !== -1) {
-    path = path.slice(specialCharacterIndex, 2);
+  if (path.includes("|")) {
+    const splitPath = path.split("| ");
+    path = splitPath[0] + splitPath[1];
   }
   path = path.replace(/\s+/g, "-").toLowerCase();
   return path;
