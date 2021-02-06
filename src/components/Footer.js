@@ -11,7 +11,7 @@ const data = require("../data.json");
 const Footer = () => {
   const shopCategories = data.shopCategories;
   return (
-    <div className={style.container}>
+    <div style={{ fontFamily: "Montserrat" }} className={style.container}>
       <div className={style.categoriesContainer}>
         <div className={style.categoryContainer}>
           Shop

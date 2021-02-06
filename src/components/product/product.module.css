@@ -1,0 +1,39 @@
+.topContainer {
+  display: flex;
+  margin: 3%;
+}
+
+.bigPictureContainer {
+  width: 45%;
+}
+
+.bigPictureContainer:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  border: solid 1px black;
+}
+
+.productPicture {
+  position: absolute;
+}
+
+.moreImagesContainer {
+  width: 15%;
+}
+
+.moreImageContainer {
+  width: 60%;
+  border: solid 1px black;
+  padding-bottom: 60%;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.moreImageContent {
+  position: absolute;
+}
+
+.informationContainer {
+  width: 40%;
+}

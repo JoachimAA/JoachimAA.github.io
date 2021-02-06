@@ -20,7 +20,13 @@ const ShopItems = () => {
       {!isShopHome ? (
         shopItems.length > 0 ? (
           shopItems.map((item) => {
-            return <ShopItem item={item} key={item.name} />;
+            return (
+              <ShopItem
+                item={item}
+                key={item.name}
+                categorySlug={shopCategorySlug}
+              />
+            );
           })
         ) : (
           <div>No results</div>
