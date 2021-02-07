@@ -40,7 +40,7 @@ const AboutDetails = () => {
         love to hear from you!
       </div>
       <div className={style.textContainer}>Lexie x</div>
-      <div>more picture</div>
+      <div className={style.textContainer}>more picture</div>
     </div>
   );
 };

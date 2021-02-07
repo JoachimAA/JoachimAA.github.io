@@ -1,6 +1,9 @@
+@import "../css/vars.css";
+
 .textContainer {
   text-align: center;
   margin-top: 24px;
+  color: var(--text-black);
 }
 
 .container {
@@ -9,7 +12,7 @@
 
 .divider {
   height: 1px;
-  background-color: #f595a5;
+  background-color: var(--logo-pink);
   margin: 24px 13%;
   width: 74%;
 }

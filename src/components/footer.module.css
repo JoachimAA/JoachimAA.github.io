@@ -1,7 +1,9 @@
+@import "../css/vars.css";
+
 .container {
   width: 100%;
   height: 350px;
-  background-color: #f6f6f6;
+  background-color: var(--footer-grey);
   margin: 70px 0 0 0;
 }
 
@@ -14,6 +16,7 @@
   font-size: 19px;
   font-weight: 600;
   width: 25%;
+  color: var(--text-black);
 }
 
 .logoContainer {
@@ -39,7 +42,7 @@
 
 .icon {
   margin: 0 20px 0 20px;
-  color: black;
+  color: var(--text-black);
 }
 
 .logo {
@@ -51,7 +54,7 @@
 
 .link {
   text-decoration: none;
-  color: black;
+  color: var(--text-black);
 }
 
 .link:hover {

@@ -2,7 +2,7 @@ import React from "react";
 
 const ExpandIcon = () => {
   return (
-    <div>
+    <div style={{ margin: "5px 0 0 5px" }}>
       <svg
         style={{
           stroke: "#000",
@@ -10,11 +10,12 @@ const ExpandIcon = () => {
           strokeLinecap: "round",
           strokeLinejoin: "round",
           fill: "none",
+          display: "block",
         }}
-        width="12"
-        height="12"
+        width="10"
+        height="10"
       >
-        <polyline points="0 0 6 7 12 0"></polyline>
+        <polyline points="0 0 5 6 10 0"></polyline>
       </svg>
     </div>
   );

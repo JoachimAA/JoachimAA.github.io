@@ -1,3 +1,5 @@
+@import "../css/vars.css";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -7,6 +9,7 @@
 
 .message {
   margin: 30px 0 0 0;
+  color: var(--text-black);
 }
 
 .contactContainer {
@@ -18,11 +21,11 @@
 .icon {
   display: flex;
   justify-content: center;
-  color: black;
+  color: var(--text-black);
 }
 
 .contactInfo {
   margin: 0 0 0 10px;
   text-decoration: none;
-  color: black;
+  color: var(--text-black);
 }

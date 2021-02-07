@@ -5,107 +5,116 @@
       "slug": "wedding-stationery",
       "items": [
         {
-          "name": "Wedding Invitation Suite | Classic",
+          "name": "Wedding Invitation Suite | Watercolour",
+          "sampleTrue": true,
+          "shouldContact": true,
+          "includes": [
+            "- Addressed Invatation",
+            "- Information Card",
+            "- RSVP",
+            "- Addressed Envelope"
+          ],
+          "description": "The flat card design gives the option for as many additional cards as you require, allowing you to deliver a beautiful message to your guests. Give your invitations the finishing touch with a wax seal.",
+          "optionalIncludes": [
+            "- Additional inserts",
+            "- Wax seals",
+            "- Belly bands",
+            "- Envelope liners"
+          ],
+          "custom": "This invitation suit can be customized to suit your style and budget with any combination of inserts.",
+          "sizes": [
+            "- Invatation card: A6",
+            "- Additional inserts: A6",
+            "- RSVP: A6",
+            "- Envelope: C6",
+            "Larger size available on request: A5"
+          ],
+          "materials": [
+            "- Invitation card: 300gsm Hammered Card",
+            "- Additional Inserts: 300gsm Hammered Card",
+            "- RSVP: 300gsm Hammered Card",
+            "- Envelope: 125gsm Pearlised Paper"
+          ],
+          "alsoAvailable": [
+            "- Save the Date",
+            "- Order of Service",
+            "- Menu",
+            "- Name Card",
+            "- Table Plan",
+            "- Table number/name cards",
+            "- Signage"
+          ],
           "tiers": [
             {
               "name": "Sample",
-              "price": 2.99
-            },
-            {
-              "name": "25",
-              "price": 112.5
-            },
-            {
-              "name": "50",
-              "price": 200.0
-            },
-            {
-              "name": "100",
-              "price": 350.0
+              "price": 3.5
             }
           ]
         },
         {
-          "name": "Save the Date | Classic",
+          "name": "Save the Date | Watercolour",
+          "tiers": [
+            {
+              "name": "Sample",
+              "price": 2.0
+            }
+          ]
+        },
+        {
+          "name": "Order of Service | Watercolour",
           "tiers": [
             {
               "name": "Sample",
               "price": 1.5
-            },
-            {
-              "name": "25",
-              "price": 45.0
-            },
-            {
-              "name": "50",
-              "price": 80.0
-            },
-            {
-              "name": "100",
-              "price": 150.0
             }
           ]
         },
         {
-          "name": "Order of Service | Classic",
-          "tiers": [
-            {
-              "name": "Sample",
-              "price": 1.0
-            },
-            {
-              "name": "25",
-              "price": 37.5
-            },
-            {
-              "name": "50",
-              "price": 60.0
-            },
-            {
-              "name": "100",
-              "price": 100.0
-            }
-          ]
-        },
-        {
-          "name": "Menu with Name Card | Classic",
+          "name": "Menu | Watercolour",
           "tiers": [
             {
               "name": "Sample",
               "price": 1.5
-            },
-            {
-              "name": "25",
-              "price": 50.0
-            },
-            {
-              "name": "50",
-              "price": 75.0
-            },
-            {
-              "name": "100",
-              "price": 150.0
             }
           ]
         },
         {
-          "name": "Advice to the Bride and Groom Cards | Classic",
+          "name": "Place Card | Watercolour",
           "tiers": [
             {
               "name": "Sample",
-              "price": 3.0
+              "price": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Advice to the Bride and Groom | Watercolour",
+          "tiers": [
+            {
+              "name": "Sample",
+              "price": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Table Number/Name Cards | Watercolour",
+          "tiers": [
+            {
+              "name": "10",
+              "price": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Table Plan | Watercolour",
+          "tiers": [
+            {
+              "name": "A1",
+              "price": 30.0
             },
             {
-              "name": "25",
-              "price": 75.0
-            },
-            {
-              "name": "50",
-              "price": 150.0
-            },
-            {
-              "name": "100",
-              "price": 300.0
+              "name": "A2",
+              "price": 25.0
             }
           ]
         },
@@ -113,20 +122,8 @@
           "name": "Favour Boxes | Classic",
           "tiers": [
             {
-              "name": "Sample",
-              "price": 3.0
-            },
-            {
-              "name": "25",
-              "price": 75.0
-            },
-            {
-              "name": "50",
-              "price": 150.0
-            },
-            {
-              "name": "100",
-              "price": 300.0
+              "name": "1",
+              "price": 2.5
             }
           ]
         }
@@ -137,20 +134,70 @@
       "slug": "bridal-shower",
       "items": [
         {
-          "name": "Floral Invitation",
+          "name": "Bridal Shower Invitation | Floral",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
             }
           ]
         },
         {
-          "name": "Bride-to-bee Invitation",
+          "name": "Advice to the Bride Cards | Floral",
+          "tiers": [
+            {
+              "name": "10",
+              "price": 3.5
+            },
+            {
+              "name": "20",
+              "price": 6.0
+            },
+            {
+              "name": "30",
+              "price": 8.0
+            }
+          ]
+        },
+        {
+          "name": "Bridal Shower Invitation | Bride-to-Bee",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
+            }
+          ]
+        },
+        {
+          "name": "Advice to the Bride Cards | Bride-to-Bee",
+          "tiers": [
+            {
+              "name": "10",
+              "price": 3.5
+            },
+            {
+              "name": "20",
+              "price": 6.0
+            },
+            {
+              "name": "30",
+              "price": 8.0
             }
           ]
         }
@@ -161,29 +208,70 @@
       "slug": "baby-shower",
       "items": [
         {
-          "name": "Rainbow Invitation",
+          "name": "Baby Shower Invitation | Rainbow",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
             }
           ]
         },
         {
-          "name": "Pink Stars Invitation",
+          "name": "Baby Predictions | Rainbow",
           "tiers": [
             {
+              "name": "10",
+              "price": 3.5
+            },
+            {
               "name": "20",
-              "price": 20.0
+              "price": 6.0
+            },
+            {
+              "name": "30",
+              "price": 8.0
             }
           ]
         },
         {
-          "name": "Blue Stars Invitation",
+          "name": "Words of Wisdom for the Mum-to-be | Rainbow",
           "tiers": [
             {
+              "name": "10",
+              "price": 3.5
+            },
+            {
               "name": "20",
-              "price": 20.0
+              "price": 6.0
+            },
+            {
+              "name": "30",
+              "price": 8.0
+            }
+          ]
+        },
+        {
+          "name": "Wishes for the Baby | Rainbow",
+          "tiers": [
+            {
+              "name": "10",
+              "price": 3.5
+            },
+            {
+              "name": "20",
+              "price": 6.0
+            },
+            {
+              "name": "30",
+              "price": 8.0
             }
           ]
         }
@@ -194,20 +282,36 @@
       "slug": "announcement-cards",
       "items": [
         {
-          "name": "Eucalyptus New Address Card",
+          "name": "New Address Card | Eucalyptus",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
             }
           ]
         },
         {
-          "name": "Paint Strips New Address Card",
+          "name": "New Address Card | Paint Samples",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
             }
           ]
         }
@@ -218,29 +322,53 @@
       "slug": "invitations",
       "items": [
         {
-          "name": "Gold Glitter Brithday Invitation",
+          "name": "Engagement Party Invitation | Floral",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
             }
           ]
         },
         {
-          "name": "Rose Gold Birthday Invitation",
+          "name": "Birthday Invitation | Gold",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
             }
           ]
         },
         {
-          "name": "Floral Birthday Invitation",
+          "name": "Baptism Celebration Invitation | Cross",
           "tiers": [
             {
               "name": "20",
               "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 25.0
+            },
+            {
+              "name": "40",
+              "price": 30.0
             }
           ]
         }

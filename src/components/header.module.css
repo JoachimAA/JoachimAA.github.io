@@ -5,6 +5,19 @@
   margin-top: 40px;
 }
 
+.headerTitle {
+  width: 25%;
+  height: 30px;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTitle:hover {
+  text-decoration: underline;
+}
+
 .divider {
   background-color: var(--logo-pink);
   width: 94%;
@@ -31,8 +44,8 @@
   height: 35px;
   display: flex;
   justify-content: space-evenly;
-  font-family: fantasy;
   align-items: center;
+  margin: 0 3%;
 }
 
 .link {

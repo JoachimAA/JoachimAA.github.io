@@ -1,3 +1,5 @@
+@import "../css/vars.css";
+
 .image {
   height: 200px;
   width: 200px;
@@ -13,11 +15,12 @@
   display: flex;
   justify-content: center;
   margin: 20px;
+  color: var(--text-black);
 }
 
 .link {
   text-decoration: none;
-  color: black;
+  color: var(--text-black);
 }
 
 .container {

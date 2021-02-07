@@ -48,34 +48,36 @@ const Header = () => {
       />
       <div className={style.divider} />
       <div style={{ fontFamily: "Montserrat" }} className={style.navigationBar}>
-        <div>
+        <div className={style.headerTitle}>
           <NavLink path="/">Home</NavLink>
         </div>
         <div className={style.verticalDivider} />
 
-        <ReactHover options={{ followCursor: false, shiftX: 0, shiftY: 0 }}>
-          <Trigger>
-            <NavLink path="/shop">
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <div>Shop</div>
-                <ExpandIcon />
-              </div>
-            </NavLink>
-          </Trigger>
+        {/* <ReactHover options={{ followCursor: false, shiftX: 0, shiftY: 0 }}>
+          <Trigger> */}
+        <div className={style.headerTitle}>
+          <NavLink path="/shop">
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div>Shop</div>
+              <ExpandIcon />
+            </div>
+          </NavLink>
+        </div>
+        {/* </Trigger>
           <Hover>
             <HoverComponent />
           </Hover>
-        </ReactHover>
+        </ReactHover> */}
 
         <div className={style.verticalDivider} />
         <div className={style.hidden} style={hiddenStyle}>
           show me
         </div>
-        <div>
+        <div className={style.headerTitle}>
           <NavLink path="/about">About</NavLink>
         </div>
         <div className={style.verticalDivider} />
-        <div>
+        <div className={style.headerTitle}>
           <NavLink path="/contact">Contact</NavLink>
         </div>
       </div>

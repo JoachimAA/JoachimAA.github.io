@@ -2,9 +2,15 @@
 
 .link {
   text-decoration: none;
-  color: black;
+  color: var(--text-black);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .active {
   color: var(--logo-pink);
+  text-decoration: underline;
 }

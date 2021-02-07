@@ -1,3 +1,5 @@
+@import "../../css/vars.css";
+
 .image {
   border: solid black 1px;
   width: 85%;
@@ -35,6 +37,15 @@
     margin-right: 2%;
   }
 } */
+.link {
+  color: var(--text-black);
+  text-decoration: none;
+}
+
+.itemInformation {
+  width: 85%;
+  margin: auto;
+}
 
 .container:before {
   content: "";
