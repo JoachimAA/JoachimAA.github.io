@@ -1,35 +1,36 @@
 import React, { useState } from "react";
 import style from "./header.module.css";
 import NavLink from "./NavLink";
-import { Link } from "gatsby";
 import LogoSrc from "../images/logo.svg";
-import { LogoColours } from "../utils/helpers";
+import ReactHover, { Trigger, Hover } from "react-hover";
+import { Link } from "gatsby";
+import ExpandIcon from "./common/ExpandIcon";
 
 const data = require("../data.json");
 
-// const HoverComponent = () => {
-//   const shopCategories = data.shopCategories;
-//   return (
-//     <div
-//       style={{
-//         height: "200px",
-//         width: "200px",
-//         backgroundColor: "white",
-//         border: "solid 1px #e6e6e6",
-//       }}
-//     >
-//       {shopCategories.map((category) => {
-//         return (
-//           <div className={style.hoverText}>
-//             <Link to={"/shop/" + category.slug} className={style.link}>
-//               {category.name}
-//             </Link>
-//           </div>
-//         );
-//       })}
-//     </div>
-//   );
-// };
+const HoverComponent = () => {
+  const shopCategories = data.shopCategories;
+  return (
+    <div
+      style={{
+        height: "200px",
+        width: "200px",
+        backgroundColor: "white",
+        border: "solid 1px #e6e6e6",
+      }}
+    >
+      {shopCategories.map((category) => {
+        return (
+          <div key={category.name} className={style.hoverText}>
+            <Link to={"/shop/" + category.slug} className={style.link}>
+              {category.name}
+            </Link>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
 
 const hoverOptions = {
   followCursor: false,
@@ -51,13 +52,21 @@ const Header = () => {
           <NavLink path="/">Home</NavLink>
         </div>
         <div className={style.verticalDivider} />
-        <div
-          className={style.shop}
-          onMouseEnter={() => setHiddenStyle({ display: "block" })}
-          onMouseLeave={() => setHiddenStyle({ display: "none" })}
-        >
-          <NavLink path="/shop">Shop</NavLink>
-        </div>
+
+        <ReactHover options={{ followCursor: false, shiftX: 0, shiftY: 0 }}>
+          <Trigger>
+            <NavLink path="/shop">
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <div>Shop</div>
+                <ExpandIcon />
+              </div>
+            </NavLink>
+          </Trigger>
+          <Hover>
+            <HoverComponent />
+          </Hover>
+        </ReactHover>
+
         <div className={style.verticalDivider} />
         <div className={style.hidden} style={hiddenStyle}>
           show me

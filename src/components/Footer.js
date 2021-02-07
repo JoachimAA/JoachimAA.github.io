@@ -50,12 +50,12 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.socialContainer}>
-        <a href={SocialMediaLinks.instagram} target="_blank">
+        <a href={SocialMediaLinks.instagram} target="_blank" rel="noreferrer">
           <div className={style.icon}>
             <InstagramIcon fontSize="large" />
           </div>
         </a>
-        <a href={SocialMediaLinks.facebook} target="_blank">
+        <a href={SocialMediaLinks.facebook} target="_blank" rel="noreferrer">
           <div className={style.icon}>
             <FacebookIcon fontSize="large" />
           </div>

@@ -34,7 +34,7 @@ const ShopItems = () => {
       ) : (
         <Fragment>
           {shopCategories.map((category) => {
-            return <ShopCategory category={category} />;
+            return <ShopCategory key={category.name} category={category} />;
           })}
         </Fragment>
       )}

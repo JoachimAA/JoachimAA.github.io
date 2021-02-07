@@ -35,6 +35,7 @@ const ContactDetails = () => {
         href={SocialMediaLinks.instagram}
         style={{ textDecoration: "none" }}
         target="_blank"
+        rel="noreferrer"
       >
         <div className={style.contactContainer}>
           <div className={style.icon}>
@@ -47,6 +48,7 @@ const ContactDetails = () => {
         href={SocialMediaLinks.facebook}
         style={{ textDecoration: "none" }}
         target="_blank"
+        rel="noreferrer"
       >
         <div className={style.contactContainer}>
           <div className={style.icon}>
