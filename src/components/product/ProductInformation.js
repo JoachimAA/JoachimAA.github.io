@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import style from "./productInformation.module.css";
+import "../../css/vars.css";
 
 const ProductInformation = ({ item }) => {
   const [tierSelected, setTierSelected] = useState(item.tiers[0].name);
@@ -21,7 +22,7 @@ const ProductInformation = ({ item }) => {
             className={style.tierBox}
             style={{
               backgroundColor:
-                tier.name === tierSelected ? "#edd1d5" : "#ffffff",
+                tier.name === tierSelected ? "var(--logo-pink)" : "#ffffff",
             }}
             onClick={() => {
               console.log("clicking tier selcted -> ", tier.name);

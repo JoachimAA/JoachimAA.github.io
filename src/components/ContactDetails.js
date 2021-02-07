@@ -3,6 +3,7 @@ import style from "./contactDetails.module.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
+import { SocialMediaLinks } from "../utils/helpers";
 // import { useStaticQuery, graphql } from "gatsby";
 
 const ContactDetails = () => {
@@ -30,18 +31,30 @@ const ContactDetails = () => {
         </div>
         <div className={style.contactInfo}>artheypaperdesigns@hotmail.com</div>
       </div>
-      <div className={style.contactContainer}>
-        <div className={style.icon}>
-          <InstagramIcon />
+      <a
+        href={SocialMediaLinks.instagram}
+        style={{ textDecoration: "none" }}
+        target="_blank"
+      >
+        <div className={style.contactContainer}>
+          <div className={style.icon}>
+            <InstagramIcon />
+          </div>
+          <div className={style.contactInfo}>@artheypaperdesigns</div>
         </div>
-        <div className={style.contactInfo}>@arthey-paper-designs</div>
-      </div>
-      <div className={style.contactContainer}>
-        <div className={style.icon}>
-          <FacebookIcon />
+      </a>
+      <a
+        href={SocialMediaLinks.facebook}
+        style={{ textDecoration: "none" }}
+        target="_blank"
+      >
+        <div className={style.contactContainer}>
+          <div className={style.icon}>
+            <FacebookIcon />
+          </div>
+          <div className={style.contactInfo}>ArtheyPaperDesigns</div>
         </div>
-        <div className={style.contactInfo}>Facebook:</div>
-      </div>
+      </a>
     </div>
   );
 };

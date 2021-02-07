@@ -1,29 +1,29 @@
 import React from "react";
 import style from "./homeDetails.module.css";
-import NavButton from "./common/NavButton";
 import MeSrc from "../images/me.png";
 import LogoSrc from "../images/logo.svg";
+import { Link } from "gatsby";
 
 const HomeDetails = () => {
   return (
     <div className={style.container}>
-      <div>
+      <Link to={"/contact"} className={style.link}>
         <div
           style={{ backgroundImage: `url(${LogoSrc})` }}
           className={style.image}
         />
 
         <div className={style.imageText}>Get in touch</div>
-      </div>
+      </Link>
       <div>
-        <div
-          style={{ backgroundImage: `url(${MeSrc})` }}
-          className={style.image}
-        />
+        <Link to={"/about"} className={style.link}>
+          <div
+            style={{ backgroundImage: `url(${MeSrc})` }}
+            className={style.image}
+          />
 
-        <div className={style.imageText}>
-          <NavButton to={"/about"} name={"About Lexie"} />
-        </div>
+          <div className={style.imageText}>About Lexie</div>
+        </Link>
       </div>
     </div>
   );

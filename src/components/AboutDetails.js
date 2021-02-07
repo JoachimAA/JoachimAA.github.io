@@ -5,7 +5,6 @@ import MeSrc from "../images/me.png";
 const AboutDetails = () => {
   return (
     <div>
-      <div>About</div>
       <div
         style={{ backgroundImage: `url(${MeSrc})` }}
         className={style.image}

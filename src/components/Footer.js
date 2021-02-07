@@ -5,6 +5,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import LogoSrc from "../images/logo.svg";
 import { Link } from "gatsby";
+import { SocialMediaLinks } from "../utils/helpers";
 
 const data = require("../data.json");
 
@@ -49,12 +50,16 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.socialContainer}>
-        <div className={style.icon}>
-          <InstagramIcon fontSize="large" />
-        </div>
-        <div className={style.icon}>
-          <FacebookIcon fontSize="large" />
-        </div>
+        <a href={SocialMediaLinks.instagram} target="_blank">
+          <div className={style.icon}>
+            <InstagramIcon fontSize="large" />
+          </div>
+        </a>
+        <a href={SocialMediaLinks.facebook} target="_blank">
+          <div className={style.icon}>
+            <FacebookIcon fontSize="large" />
+          </div>
+        </a>
         <div className={style.icon}>
           <MailOutlineIcon fontSize="large" />
         </div>

@@ -1,8 +1,10 @@
+@import "../css/vars.css";
+
 .link {
   text-decoration: none;
   color: black;
 }
 
 .active {
-  color: #f595a5;
+  color: var(--logo-pink);
 }

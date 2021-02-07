@@ -1,3 +1,8 @@
+export const SocialMediaLinks = {
+  facebook: "https://www.facebook.com/ArtheyPaperDesigns/",
+  instagram: "https://www.instagram.com/artheypaperdesigns/",
+};
+
 export const GetLastAreaOnUrl = (path) => {
   console.log("path -> ", path);
   return path.substring(path.lastIndexOf("/") + 1);

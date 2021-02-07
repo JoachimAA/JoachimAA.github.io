@@ -1,6 +1,8 @@
+@import "../../css/vars.css";
+
 .divider {
   height: 1px;
-  background-color: black;
+  background-color: var(--logo-pink);
   width: 80%;
   margin: auto;
   margin-bottom: 15px;
