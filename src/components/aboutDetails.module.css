@@ -3,6 +3,10 @@
   margin-top: 24px;
 }
 
+.container {
+  margin: 0 3%;
+}
+
 .divider {
   height: 1px;
   background-color: #f595a5;

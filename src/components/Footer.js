@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className={style.categoryContainer}>
+        <div className={style.logoContainer}>
           <div
             className={style.logo}
             style={{ backgroundImage: `url(${LogoSrc})` }}
