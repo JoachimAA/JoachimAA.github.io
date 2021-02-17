@@ -2,27 +2,32 @@ import React, { useState, Fragment } from "react";
 import style from "./productInformation.module.css";
 import "../../css/vars.css";
 
-const Includes = (includes) => {
-  console.log("item inlcudes -> ", includes);
+const ListItems = ({ title, listItems }) => {
   return (
-    <Fragment>
-      {includes ? (
+    <div className={style.infoSectionContainer}>
+      {listItems ? (
         <div>
-          <div>Includes:</div>
-          {includes.map((include) => {
-            console.log("include -> ", include);
-            return <div>{include}</div>;
+          <div className={style.subTitle}>{title}</div>
+          {listItems.map((include) => {
+            return <div key={include}>{include}</div>;
           })}
         </div>
       ) : (
         <div />
       )}
-    </Fragment>
+    </div>
   );
 };
 
 const ProductInformation = ({ item }) => {
-  console.log("item -> ", item.includes);
+  const includes = item.include && item.includes.split("?");
+  const optionalIncludes =
+    item.optionalIncludes && item.optionalIncludes.split("?");
+  const custom = item.custom ?? "";
+  const sizes = item.sizes && item.sizes.split("?");
+  const materials = item.materials && item.materials.split("?");
+  const alsoAvailable = item.alsoAvailable && item.alsoAvailable.split("?");
+  const description = item.description ?? "";
   const [tierSelected, setTierSelected] = useState(item.tiers[0].name);
   const findPrice = item.tiers.find((tier) => tier.name === tierSelected);
   const price = findPrice ? findPrice.price : "Unknown";
@@ -58,7 +63,7 @@ const ProductInformation = ({ item }) => {
         ))}
       </div>
       <div className={style.basketButton}>Add to basket</div>
-      <div>{item.name}</div>
+      <div className={style.nameTitle}>{item.name}</div>
       <div>
         {item.sampleTrue ? "This is for a non-personalised sample only." : ""}
       </div>
@@ -67,7 +72,13 @@ const ProductInformation = ({ item }) => {
           ? "Please contact me to request a quote for a full order."
           : ""}
       </div>
-      <Includes item={item.includes} />
+      <ListItems title={"Includes:"} listItems={includes} />
+      <div>{description}</div>
+      <ListItems title={"Optional includes:"} listItems={optionalIncludes} />
+      <div>{custom}</div>
+      <ListItems title={"Sizes:"} listItems={sizes} />
+      <ListItems title={"Materials:"} listItems={materials} />
+      <ListItems title={"Also available:"} listItems={alsoAvailable} />
     </div>
   );
 };

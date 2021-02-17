@@ -8,42 +8,13 @@
           "name": "Wedding Invitation Suite | Watercolour",
           "sampleTrue": true,
           "shouldContact": true,
-          "includes": [
-            "- Addressed Invatation",
-            "- Information Card",
-            "- RSVP",
-            "- Addressed Envelope"
-          ],
+          "includes": "- Addressed Invatation?- Information Card?- RSVP?- Addressed Envelope",
           "description": "The flat card design gives the option for as many additional cards as you require, allowing you to deliver a beautiful message to your guests. Give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": [
-            "- Additional inserts",
-            "- Wax seals",
-            "- Belly bands",
-            "- Envelope liners"
-          ],
+          "optionalIncludes": "- Additional inserts?- Wax seals?- Belly bands?- Envelope liners",
           "custom": "This invitation suit can be customized to suit your style and budget with any combination of inserts.",
-          "sizes": [
-            "- Invatation card: A6",
-            "- Additional inserts: A6",
-            "- RSVP: A6",
-            "- Envelope: C6",
-            "Larger size available on request: A5"
-          ],
-          "materials": [
-            "- Invitation card: 300gsm Hammered Card",
-            "- Additional Inserts: 300gsm Hammered Card",
-            "- RSVP: 300gsm Hammered Card",
-            "- Envelope: 125gsm Pearlised Paper"
-          ],
-          "alsoAvailable": [
-            "- Save the Date",
-            "- Order of Service",
-            "- Menu",
-            "- Name Card",
-            "- Table Plan",
-            "- Table number/name cards",
-            "- Signage"
-          ],
+          "sizes": "- Invitation card: A6?- Additional inserts: A6?- RSVP: A6?- Envelope: C6?Larger size available on request: A5",
+          "materials": "- Invitation card: 300gsm Hammered Card?- Additional Inserts: 300gsm Hammered Card?- RSVP: 300gsm Hammered Card?- Envelope: 125gsm Pearlised Paper",
+          "alsoAvailable": "- Save the Date?- Order of Service?- Menu?- Name Card?- Table Plan?- Table number/name cards?- Signage",
           "tiers": [
             {
               "name": "Sample",
