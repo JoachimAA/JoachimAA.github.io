@@ -59,3 +59,31 @@
   height: 200px;
   width: 100px;
 }
+
+.menuitem {
+  width: 25%;
+  height: 30px;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuitem:hover {
+  background-color: none;
+}
+
+.menuitem:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  bottom: 500px;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  display: none;
+  width: 20%;
+  background-color: white;
+  border: solid 1px #e6e6e6;
+}

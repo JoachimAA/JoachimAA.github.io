@@ -1,24 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "./header.module.css";
 import NavLink from "./NavLink";
 import LogoSrc from "../images/logo.svg";
-import ReactHover, { Trigger, Hover } from "react-hover";
 import { Link } from "gatsby";
 import ExpandIcon from "./common/ExpandIcon";
 
 const data = require("../data.json");
 
-const HoverComponent = () => {
+const SubMenu = () => {
   const shopCategories = data.shopCategories;
   return (
-    <div
-      style={{
-        height: "200px",
-        width: "200px",
-        backgroundColor: "white",
-        border: "solid 1px #e6e6e6",
-      }}
-    >
+    <div className={style.submenu}>
       {shopCategories.map((category) => {
         return (
           <div key={category.name} className={style.hoverText}>
@@ -32,14 +24,7 @@ const HoverComponent = () => {
   );
 };
 
-const hoverOptions = {
-  followCursor: false,
-  shiftX: 0,
-  shiftY: 0,
-};
-
 const Header = () => {
-  const [hiddenStyle, setHiddenStyle] = useState({ display: "none" });
   return (
     <div className={style.headerContainer}>
       <div
@@ -53,26 +38,17 @@ const Header = () => {
         </div>
         <div className={style.verticalDivider} />
 
-        {/* <ReactHover options={{ followCursor: false, shiftX: 0, shiftY: 0 }}>
-          <Trigger> */}
-        <div className={style.headerTitle}>
+        <div className={style.menuitem}>
           <NavLink path="/shop">
             <div style={{ display: "flex", alignItems: "center" }}>
               <div>Shop</div>
               <ExpandIcon />
             </div>
           </NavLink>
+          <SubMenu />
         </div>
-        {/* </Trigger>
-          <Hover>
-            <HoverComponent />
-          </Hover>
-        </ReactHover> */}
 
         <div className={style.verticalDivider} />
-        <div className={style.hidden} style={hiddenStyle}>
-          show me
-        </div>
         <div className={style.headerTitle}>
           <NavLink path="/about">About</NavLink>
         </div>

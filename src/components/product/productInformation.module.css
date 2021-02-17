@@ -17,15 +17,12 @@
 
 .subTitle {
   font-weight: 600;
-}
-
-.nameTitle {
-  font-weight: 600;
-  margin-bottom: 20px;
+  color: var(--text-black);
 }
 
 .infoSectionContainer {
   margin: 20px 0 20px 0;
+  color: var(--text-black);
 }
 
 .priceText {
@@ -45,6 +42,7 @@
 .quantityTitle {
   margin-bottom: 5px;
   color: var(--text-black);
+  font-weight: 600;
 }
 
 .tierBox {
@@ -70,4 +68,5 @@
   height: 30px;
   background-color: var(--logo-pink);
   border-radius: 5px;
+  font-weight: 600;
 }

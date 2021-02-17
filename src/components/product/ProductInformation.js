@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState } from "react";
 import style from "./productInformation.module.css";
 import "../../css/vars.css";
 
@@ -7,7 +7,12 @@ const ListItems = ({ title, listItems }) => {
     <div className={style.infoSectionContainer}>
       {listItems ? (
         <div>
-          <div className={style.subTitle}>{title}</div>
+          <div
+            className={style.subTitle}
+            style={{ fontFamily: "Montserrat-Regular" }}
+          >
+            {title}
+          </div>
           {listItems.map((include) => {
             return <div key={include}>{include}</div>;
           })}
@@ -41,7 +46,11 @@ const ProductInformation = ({ item }) => {
         {typeof price === "number" ? "£" + price.toFixed(2) : price}
       </div>
       <div className={style.divider} />
-      <div style={{ marginBottom: "5px" }} className={style.quantityTitle}>
+      <div
+        style={{ marginBottom: "5px" }}
+        className={style.quantityTitle}
+        style={{ fontFamily: "Montserrat-Regular" }}
+      >
         Quantity :
       </div>
       <div className={style.quantitySelector}>
@@ -63,7 +72,6 @@ const ProductInformation = ({ item }) => {
         ))}
       </div>
       <div className={style.basketButton}>Add to basket</div>
-      <div className={style.nameTitle}>{item.name}</div>
       <div>
         {item.sampleTrue ? "This is for a non-personalised sample only." : ""}
       </div>
@@ -74,11 +82,14 @@ const ProductInformation = ({ item }) => {
       </div>
       <ListItems title={"Includes:"} listItems={includes} />
       <div>{description}</div>
-      <ListItems title={"Optional includes:"} listItems={optionalIncludes} />
+      <ListItems title={"Optional extras:"} listItems={optionalIncludes} />
       <div>{custom}</div>
       <ListItems title={"Sizes:"} listItems={sizes} />
       <ListItems title={"Materials:"} listItems={materials} />
-      <ListItems title={"Also available:"} listItems={alsoAvailable} />
+      <ListItems
+        title={"Also available in this design:"}
+        listItems={alsoAvailable}
+      />
     </div>
   );
 };
