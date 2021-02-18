@@ -8,13 +8,13 @@
           "name": "Wedding Invitation Suite | Watercolour",
           "sampleTrue": true,
           "shouldContact": true,
-          "includes": "- Addressed Invitation?- Information Card?- RSVP?- Addressed Envelope",
+          "includes": "- Addressed Invitation?- Information Card?- Double Sided RSVP?- Addressed Envelope",
           "description": "The flat card design gives the option for as many additional cards as you require, allowing you to deliver a beautiful message to your guests. Give your invitations the finishing touch with a wax seal.",
           "optionalIncludes": "- Additional Inserts?- Wax Seals?- Belly Bands?- Envelope Liners?- Stickers",
-          "custom": "This invitation suit can be customized to suit your style and budget with any combination of inserts. Please contact me if you have any questions at all.",
-          "sizes": "- Invitation Card: A6?- Additional Inserts: A6?- RSVP: A6?- Envelope: C6?Larger size available on request: A5",
-          "materials": "- Invitation Card: 300gsm Hammered Card?- Additional Inserts: 300gsm Hammered Card?- RSVP: 300gsm Hammered Card?- Envelope: 125gsm Pearlised Paper",
-          "alsoAvailable": "- Save the Date?- Order of Service?- Menu?- Name Card?- Table Plan?- Table number/name cards?- Signage",
+          "custom": "This invitation suite can be customized to suit your style and budget with any combination of inserts. Please contact me if you have any questions at all.",
+          "sizes": "The invites are A6 (105 x 148mm), but larger sizes (A5 and 5”x7”) are available on request.",
+          "materials": "The invites are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
+          "alsoAvailable": "- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice Cards?- Rehearsal Dinner Invitation",
           "tiers": [
             {
               "name": "Sample",
@@ -24,6 +24,15 @@
         },
         {
           "name": "Save the Date | Watercolour",
+          "sampleTrue": true,
+          "shouldContact": true,
+          "includes": "- Save the Date Card?- Addressed Envelope",
+          "description": "This luxury card is the perfect way to announce your big day to your guests! Give your save the date the finishing touch with a wax seal.",
+          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "custom": "This save the date can be customized to suit your style and budget. Please contact me if you have any questions at all.",
+          "sizes": "The save the date is A6 (105 x 148mm), but larger sizes (A5 and 5”x7”) are available on request.",
+          "materials": "The save the date is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice Cards?- Rehearsal Dinner Invitation",
           "tiers": [
             {
               "name": "Sample",
@@ -33,6 +42,16 @@
         },
         {
           "name": "Order of Service | Watercolour",
+          "sampleTrue": true,
+          "shouldContact": true,
+          "includes": "- Double sided Order of Service Card",
+          "description": "This luxury textured card will bring extra elegance to your wedding stationery",
+          "optionalIncludes": "- Heart Paper Clip (for a tissue or confetti)",
+          "custom": "This order of service can be customized to suit your style. Please contact me if you have any questions at all.",
+          "sizes": "The order of service is 99 x 210mm, but other shapes and sizes are available on request, such as A6 or square.",
+          "materials": "The order of service is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice Cards?- Rehearsal Dinner Invitation",
+
           "tiers": [
             {
               "name": "Sample",
@@ -42,6 +61,15 @@
         },
         {
           "name": "Menu | Watercolour",
+          "sampleTrue": true,
+          "shouldContact": true,
+          "includes": "- Double sided Menu Card",
+          "description": "This luxury textured card will bring extra elegance to your wedding stationery",
+          "optionalIncludes": "- Heart Paper Clip (to attach our Advice to the Bride and Groom Cards)",
+          "custom": "This menu can be customized to suit your style. Please contact me if you have any questions at all.",
+          "sizes": "The menu is 99 x 210mm, but other shapes and sizes are available on request, such as A6 or square.",
+          "materials": "The menu is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice Cards?- Rehearsal Dinner Invitation",
           "tiers": [
             {
               "name": "Sample",
@@ -51,6 +79,15 @@
         },
         {
           "name": "Place Card | Watercolour",
+          "sampleTrue": true,
+          "shouldContact": true,
+          "includes": "- Place Card",
+          "description": "This luxury textured card will bring extra elegance to your wedding stationery",
+          "optionalIncludes": "- Dietary information to be included on the back of the cards",
+          "custom": "This place card can be customized to suit your style. Please contact me if you have any questions at all.",
+          "sizes": "The place card is 90 x 45mm, but a larger size of 100x40mm is available on request.",
+          "materials": "The place card is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Table Plan?- Table Number/Name Cards?- Signage?- Advice Cards?- Rehearsal Dinner Invitation",
           "tiers": [
             {
               "name": "Sample",
@@ -59,16 +96,34 @@
           ]
         },
         {
-          "name": "Advice to the Bride and Groom | Watercolour",
+          "name": "Table Plan | Watercolour",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Mounted Table Plan",
+          "description": "This mounted table plan is durable and perfect to be placed on an easel",
+          "optionalIncludes": "- Frame (if purchasing the poster print)",
+          "custom": "This table plan can be customized to suit your style and budget. Please contact me if you have any questions at all.",
+          "sizes": "The table plan is A1 (594 x 841mm), a smaller size A2 (420 x 594mm) is available on request.",
+          "materials": "The table plan is printed on 5mm Thick Foamex. Other card types are available, such as a Poster Print, Lightweight Foamcore or an Eco Board, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Number/Name Cards?- Signage?- Advice Cards?- Rehearsal Dinner Invitation",
           "tiers": [
             {
-              "name": "Sample",
-              "price": 1.5
+              "name": "A1",
+              "price": 30.0
             }
           ]
         },
         {
           "name": "Table Number/Name Cards | Watercolour",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Table Number/Name Card",
+          "description": "This luxury textured card will bring extra elegance to your wedding stationery",
+          "optionalIncludes": "- Table Card Stand?- Personalisation",
+          "custom": "This table number/name card can be customized to suit your style. Please contact me if you have any questions at all.",
+          "sizes": "The table number/name card is A6 (105 x 148mm), but custom sizes are available on request.",
+          "materials": "The table number/name card is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Signage?- Advice Cards?- Rehearsal Dinner Invitation",
           "tiers": [
             {
               "name": "10",
@@ -77,20 +132,70 @@
           ]
         },
         {
-          "name": "Table Plan | Watercolour",
+          "name": "Signage | Watercolour",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Mounted Personalised Sign",
+          "description": "This mounted sign is durable and perfect to be placed on an easel",
+          "optionalIncludes": "- Frame (if purchasing the poster print)",
+          "custom": "This sign is to be customised to your needs. Please contact me for what you would like included on the sign and I will design it for you.",
+          "sizes": "The sign is A2 (420 x 594mm), a larger size A1 (594 x 841mm) is available on request.",
+          "materials": "The sign is printed on 5mm Thick Foamex. Other card types are available, such as a Poster Print, Lightweight Foamcore or an Eco Board, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Advice Cards?- Rehearsal Dinner Invitation",
           "tiers": [
             {
               "name": "A1",
               "price": 30.0
-            },
+            }
+          ]
+        },
+        {
+          "name": "Advice Card | Watercolour",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Advice to the Bride and Groom Card",
+          "description": "This luxury textured card will bring extra elegance to your wedding stationery",
+          "optionalIncludes": "- Heart Paper Clip (to attach to our menu)",
+          "custom": "This advice card can be customized to suit your style. Please contact me if you have any questions at all.",
+          "sizes": "The advice card is 99 x 210mm, but other shapes and sizes are available on request, such as A6 or square.",
+          "materials": "The advice card is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Rehearsal Dinner Invitation",
+          "tiers": [
             {
-              "name": "A2",
-              "price": 25.0
+              "name": "Sample",
+              "price": 1.5
+            }
+          ]
+        },
+        {
+          "name": "Rehearsal Dinner Invitation | Watercolour",
+          "sampleTrue": true,
+          "shouldContact": true,
+          "includes": "- Rehearsal Dinner Invitation?- Addressed Envelope",
+          "description": "This luxury textured card will bring extra elegance to your wedding stationery. Give your invitation the finishing touch with a wax seal.",
+          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "custom": "This invitation can be customized to suit your style. Please contact me if you have any questions at all.",
+          "sizes": "The invitation is 99 x 210mm, but other shapes and sizes are available on request, such as A6 or square.",
+          "materials": "The invitation is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice Cards",
+          "tiers": [
+            {
+              "name": "Sample",
+              "price": 2.0
             }
           ]
         },
         {
           "name": "Favour Boxes | Classic",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Favour Box topped with Wax Seal?- Heart Chocolates (individually wrapped inside box)",
+          "description": "This favour box can be customised to fit the colours and style of your day.",
+          "optionalIncludes": "- Duo colour tone (mix and match two colours top and bottom)",
+          "custom": "This favour box has the option to customise the colour of the box, ribbon and wax seal. The colours I offer are shown but other colours are available on request. Please contact me if you have any questions at all.",
+          "sizes": "The favour box is 50mm x 50mm x 50mm, other sizes are available on request, such as 75mm x 75mm x 50mm, or a pillow box.",
+          "materials": "The invitation is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice Cards",
           "tiers": [
             {
               "name": "1",

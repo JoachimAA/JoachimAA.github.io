@@ -25,12 +25,12 @@ const ListItems = ({ title, listItems }) => {
 };
 
 const ProductInformation = ({ item }) => {
-  const includes = item.include && item.includes.split("?");
+  const includes = item.includes && item.includes.split("?");
   const optionalIncludes =
     item.optionalIncludes && item.optionalIncludes.split("?");
   const custom = item.custom ?? "";
-  const sizes = item.sizes && item.sizes.split("?");
-  const materials = item.materials && item.materials.split("?");
+  const sizes = item.sizes ?? "";
+  const materials = item.materials ?? "";
   const alsoAvailable = item.alsoAvailable && item.alsoAvailable.split("?");
   const description = item.description ?? "";
   const [tierSelected, setTierSelected] = useState(item.tiers[0].name);
@@ -84,8 +84,24 @@ const ProductInformation = ({ item }) => {
       <div>{description}</div>
       <ListItems title={"Optional extras:"} listItems={optionalIncludes} />
       <div>{custom}</div>
-      <ListItems title={"Sizes:"} listItems={sizes} />
-      <ListItems title={"Materials:"} listItems={materials} />
+      <div className={style.infoSectionContainer}>
+        <div
+          style={{ fontFamily: "Montserrat-Regular" }}
+          className={style.subTitle}
+        >
+          Sizes:
+        </div>
+        <div>{sizes}</div>
+      </div>
+      <div className={style.infoSectionContainer}>
+        <div
+          style={{ fontFamily: "Montserrat-Regular" }}
+          className={style.subTitle}
+        >
+          Materials:
+        </div>
+        <div>{materials}</div>
+      </div>
       <ListItems
         title={"Also available in this design:"}
         listItems={alsoAvailable}
