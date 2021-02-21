@@ -47,20 +47,20 @@ const ProductInformation = ({ item }) => {
       </div>
       <div className={style.divider} />
       <div
-        style={{ marginBottom: "5px" }}
         className={style.quantityTitle}
-        style={{ fontFamily: "Montserrat-Regular" }}
+        style={{ fontFamily: "Montserrat-Regular", marginBottom: "5px" }}
       >
         Quantity :
       </div>
       <div className={style.quantitySelector}>
         {item.tiers.map((tier) => (
-          <div
+          <button
             key={tier.name}
             className={style.tierBox}
             style={{
               backgroundColor:
                 tier.name === tierSelected ? "var(--logo-pink)" : "#ffffff",
+              fontFamily: "Montserrat-Regular",
             }}
             onClick={() => {
               console.log("clicking tier selcted -> ", tier.name);
@@ -68,7 +68,7 @@ const ProductInformation = ({ item }) => {
             }}
           >
             {tier.name}
-          </div>
+          </button>
         ))}
       </div>
       <div className={style.basketButton}>Add to basket</div>
@@ -80,8 +80,8 @@ const ProductInformation = ({ item }) => {
           ? "Please contact me to request a quote for a full order."
           : ""}
       </div>
+      <div className={style.description}>{description}</div>
       <ListItems title={"Includes:"} listItems={includes} />
-      <div>{description}</div>
       <ListItems title={"Optional extras:"} listItems={optionalIncludes} />
       <div>{custom}</div>
       <div className={style.infoSectionContainer}>

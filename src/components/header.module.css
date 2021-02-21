@@ -12,7 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
 }
 
 .headerTitle:hover {
@@ -79,7 +78,7 @@
 }
 
 .submenu {
-  bottom: 350px;
+  bottom: 290px;
   text-transform: none;
   display: none;
   position: absolute;
