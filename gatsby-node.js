@@ -31,7 +31,10 @@ exports.createPages = ({ actions }) => {
       createPage({
         path: itemPath,
         component: productPage,
-        context: item.name,
+        context: {
+          pathToDir:
+            "products/weddingstationery/weddinginvitationsuitewatercolour",
+        },
       });
     });
   });
