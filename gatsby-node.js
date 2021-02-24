@@ -27,13 +27,18 @@ exports.createPages = ({ actions }) => {
     });
     category.items.forEach((item) => {
       const itemPath = categoryPath + "/" + TurnIntoSlug(item.name);
+      const pathToDir =
+        "products/" +
+        TurnIntoSlug(category.name) +
+        "/" +
+        TurnIntoSlug(item.name);
+      console.log(pathToDir);
       console.log("creating page -> ", itemPath);
       createPage({
         path: itemPath,
         component: productPage,
         context: {
-          pathToDir:
-            "products/weddingstationery/weddinginvitationsuitewatercolour",
+          pathToDir: pathToDir,
         },
       });
     });

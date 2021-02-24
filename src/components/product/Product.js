@@ -22,10 +22,14 @@ const Product = ({ data, location }) => {
       <Header />
       <div className={style.topContainer}>
         <div className={style.bigPictureContainer}>
-          <Img
-            fluid={sortedImages[selectedImage].node.childImageSharp.fluid}
-            alt=""
-          />
+          {sortedImages.length > 0 ? (
+            <Img
+              fluid={sortedImages[selectedImage].node.childImageSharp.fluid}
+              alt=""
+            />
+          ) : (
+            <div>no image</div>
+          )}
         </div>
         <div className={style.moreImagesContainer}>
           {sortedImages.map((picture, idx) => (
@@ -56,7 +60,7 @@ export const query = graphql`
   query AssetsPhotos($pathToDir: String) {
     allFile(
       filter: {
-        extension: { regex: "/(png)/" }
+        extension: { regex: "/(jpg)/" }
         relativeDirectory: { eq: $pathToDir }
       }
     ) {
