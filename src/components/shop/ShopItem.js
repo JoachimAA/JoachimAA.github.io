@@ -4,18 +4,21 @@ import { Link } from "gatsby";
 import { TurnIntoSlug } from "../../utils/helpers";
 import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 const ShopItem = ({ item, categorySlug }) => {
   const sampleCost = item.tiers[0].price ? item.tiers[0].price : "Unknown";
   const itemSlug = TurnIntoSlug(item.name);
   const path = "src/images/logo.svg";
-  const pathToImage = "products/" + categorySlug + "/" + itemSlug;
+  const pathToImage =
+    "../../images/products/" + categorySlug + "/" + itemSlug + "/1.jpg";
+  console.log(pathToImage);
 
   return (
     <StaticQuery
       query={graphql`
         query {
-          file(relativePath: { eq: pathToImage }) {
+          file(relativePath: { eq: "me.png" }) {
             childImageSharp {
               fluid(maxWidth: 600, maxHeight: 600) {
                 ...GatsbyImageSharpFluid
@@ -32,7 +35,8 @@ const ShopItem = ({ item, categorySlug }) => {
             className={style.link}
           >
             <div className={style.image}>
-              <Img fluid={data.file.childImageSharp.fluid} alt="" />
+              <StaticImage src={pathToImage} alt="" />
+              {/* <Img fluid={data.file.childImageSharp.fluid} alt="" /> */}
             </div>
             <div className={style.itemInformation}>
               <div className={style.name}>{item.name}</div>

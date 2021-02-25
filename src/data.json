@@ -8,9 +8,9 @@
           "name": "Wedding Invitation Suite | Watercolour",
           "sampleTrue": true,
           "shouldContact": true,
-          "includes": "- Addressed Invitation?- Information Card?- RSVP Postcard?- Addressed Envelope",
+          "includes": "- Addressed Invitation?- Information Card?- RSVP Postcard?- Addressed Envelope?- Envelope Liner",
           "description": "The flat card design gives the option for as many additional cards as you require, allowing you to deliver a beautiful message to your guests. Give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Additional Inserts?- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Additional Inserts?- Wax Seals?- Stickers",
           "custom": "This invitation suite can be customized to suit your style and budget with any combination of inserts. If you would like a personalised wax seal across all your wedding stationary I can offer this for a small additional cost. Please contact me if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
@@ -26,10 +26,10 @@
           "name": "Save the Date | Watercolour",
           "sampleTrue": true,
           "shouldContact": true,
-          "includes": "- Save the Date Card?- Addressed Envelope",
+          "includes": "- Double Sided Save the Date Card?- Addressed Envelope?- Envelope Liner",
           "description": "This luxury card is the perfect way to announce your big day to your guests! Give your save the date the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "This save the date can be customized to suit your style and budget.  If you would like a personalised wax seal across all your wedding stationary I can offer this for a small additional cost. Please contact me if you have any questions at all.",
+          "optionalIncludes": "- Wax Seals?- Stickers",
+          "custom": "This save the date can be customized to suit your style and budget. If you would like a personalised wax seal across all your wedding stationary I can offer this for a small additional cost. Please contact me if you have any questions at all.",
           "sizes": "The save the date is A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The save the date is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
@@ -116,11 +116,11 @@
           "tiers": [
             {
               "name": "A1",
-              "price": 30.0
+              "price": 35.0
             },
             {
               "name": "A2",
-              "price": 25.0
+              "price": 30.0
             }
           ]
         },
@@ -128,7 +128,7 @@
           "name": "Table Number/Name Cards | Watercolour",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 10/12/15 Table Number/Name Cards",
+          "includes": "- 10/12/15 Double Sided Table Number/Name Cards",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery",
           "optionalIncludes": "",
           "custom": "These cards can be customised to suit your style and personalised to any table names you may have. Please contact me for custom quantities or if you have any questions at all.",
@@ -164,11 +164,11 @@
           "tiers": [
             {
               "name": "A1",
-              "price": 30.0
+              "price": 35.0
             },
             {
               "name": "A2",
-              "price": 25.0
+              "price": 30.0
             }
           ]
         },
@@ -202,9 +202,9 @@
           "name": "Rehearsal Dinner Invitation | Watercolour",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Rehearsal Dinner Invitations?- 20/30/40 Addressed Envelopes",
+          "includes": "- 20/30/40 Rehearsal Dinner Invitations?- 20/30/40 Addressed Envelopes?- 20/30/40 Envelope Liners",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery. Give your invitation the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "This invitation can be customized to suit your event style. Please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitation is 99 x 210mm, other shapes and sizes are available on request, such as A6 or square.",
           "materials": "The invitation is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
@@ -260,9 +260,9 @@
           "name": "Bridal Shower Invitation | Pink Floral",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "This luxury card is the perfect way to spoil the bride-to-be! Perfect for any bridal shower or hen do. Give your invitation the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "This invitation can be customized to suit your event style, the cards and envelopes can be individually addressed if you require this. The wording can be changed from bridal shower to hen do or anything required, and custom pack sizes are available. Please contact me if you have any questions at all.",
           "sizes": "The invitation is A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitation is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
@@ -312,9 +312,9 @@
           "name": "Bridal Shower Invitation | Blue Floral",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "This luxury card is the perfect way to spoil the bride-to-be! Perfect for any bridal shower or hen do. Give your invitation the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "This invitation can be customized to suit your event style, the cards and envelopes can be individually addressed if you require this. The wording can be changed from bridal shower to hen do or anything required, and custom pack sizes are available. Please contact me if you have any questions at all.",
           "sizes": "The invitation is A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitation is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
@@ -370,9 +370,9 @@
           "name": "Baby Shower Invitation | Rainbow",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "This luxury card is the perfect way to spoil the Mum-to-be! Perfect for any baby shower or gender reveal. Give your invitation the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "This invitation can be customized to suit your style and budget, the cards and envelopes can be individually addressed if you require this. The wording can be changed from baby shower to gender reveal or anything required, and custom pack sizes are available. Please contact me if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitation is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
@@ -480,61 +480,9 @@
           "name": "New Address Card | Eucalyptus",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 New Address Cards?- Envelopes",
+          "includes": "- 20/30/40 New Address Cards?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Personalised change of address cards to tell your family and friends you have moved home and what your new address is. Give your cards the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "These cards come in packs of 20, 30 or 40, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The cards are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The cards are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk or cream, please let me know if you have something in mind.",
-          "alsoAvailable": "- Housewarming Party Invitation",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "New Address Card | Pink Floral",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 New Address Cards?- Envelopes",
-          "description": "Personalised change of address cards to tell your family and friends you have moved home and what your new address is. Give your cards the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "These cards come in packs of 20, 30 or 40, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The cards are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The cards are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk or cream, please let me know if you have something in mind.",
-          "alsoAvailable": "- Housewarming Party Invitation",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "New Address Card | Cactus",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 New Address Cards?- Envelopes",
-          "description": "Personalised change of address cards to tell your family and friends you have moved home and what your new address is. Give your cards the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "These cards come in packs of 20, 30 or 40, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The cards are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The cards are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk or cream, please let me know if you have something in mind.",
@@ -558,9 +506,9 @@
           "name": "New Address Card | Paint Samples",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 New Address Cards?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 New Address Cards?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Personalised change of address cards to tell your family and friends you have moved home and what your new address is. Give your cards the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "These new address cards come in a variety of colours, I can make them in any colour and quantity you would like so please contact me for custom colours and quantities or if you have any questions at all.",
           "sizes": "The cards are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The cards are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk or cream, please let me know if you have something in mind.",
@@ -590,9 +538,9 @@
           "name": "Birthday Invitation | Black & Gold",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Double Sided Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Luxury invitations for birthday celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
@@ -616,9 +564,9 @@
           "name": "Birthday Invitation | Pink & Gold",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Luxury invitations for birthday celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
@@ -642,35 +590,9 @@
           "name": "Birthday Invitation | Blue Floral",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Luxury invitations for birthday celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "Birthday Invitation | Red Floral",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for birthday celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
@@ -694,9 +616,9 @@
           "name": "Kids Birthday Invitation | Stars",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Luxury invitations for birthday celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "These invitations come in pink and blue. The wording can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The cards are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
@@ -717,38 +639,12 @@
           ]
         },
         {
-          "name": "Kids Birthday Invitation | Safari",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for birthday celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
           "name": "Baptism Celebration Invitation | Cross",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Luxury invitations for Baptisms, Christenings and Confirmations. Give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "These invitations come in grey, pink and blue. The wording can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
@@ -769,146 +665,16 @@
           ]
         },
         {
-          "name": "Engagement Party Invitation | Floral",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for engagement celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "Housewarming Party Invitation | Eucalyptus",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for housewarming celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "- New Address Card",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "Housewarming Party Invitation | Pink Floral",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for housewarming celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "- New Address Card",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "Housewarming Party Invitation | Cactus",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for housewarming celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "- New Address Card",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
           "name": "Housewarming Party Invitation | Paint Samples",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Luxury invitations for housewarming celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
           "alsoAvailable": "- New Address Card",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "Retirement Party Invitation | Floral",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for retirement celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "",
           "tiers": [
             {
               "name": "20",
@@ -928,62 +694,10 @@
           "name": "Anniversary Invitation | Stars",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
+          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes?- 20/30/40 Envelope Liners",
           "description": "Luxury invitations for anniversary celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
+          "optionalIncludes": "- Wax Seals?- Stickers",
           "custom": "These invitations come in silver, ruby and gold. The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "Anniversary Invitation | Hearts",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for anniversary celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
-          "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
-          "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
-          "alsoAvailable": "",
-          "tiers": [
-            {
-              "name": "20",
-              "price": 20.0
-            },
-            {
-              "name": "30",
-              "price": 25.0
-            },
-            {
-              "name": "40",
-              "price": 30.0
-            }
-          ]
-        },
-        {
-          "name": "Anniversary Invitation | Love Birds",
-          "sampleTrue": false,
-          "shouldContact": false,
-          "includes": "- 20/30/40 Invitations?- 20/30/40 Envelopes",
-          "description": "Luxury invitations for anniversary celebrations, give your invitations the finishing touch with a wax seal.",
-          "optionalIncludes": "- Wax Seals?- Envelope Liners?- Stickers",
-          "custom": "The wording on these invitations can be changed to any occasion required, please contact me for custom quantities or if you have any questions at all.",
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 250gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
           "alsoAvailable": "",
