@@ -21,6 +21,9 @@ const ContactDetails = () => {
 
   return (
     <div className={style.container}>
+      <div className={style.mainTitle} style={{ fontFamily: "Brittany" }}>
+        Contact
+      </div>
       <div className={style.message}>
         Please get in touch to discuss personalization or ideas that you would
         like me to design for you.

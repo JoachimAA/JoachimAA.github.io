@@ -11,7 +11,9 @@ const ShopHeader = () => {
   );
   const isShopHome = slug === "" || slug === "shop";
   return (
-    <div className={style.container}>{isShopHome ? "Shop" : shopCat.name}</div>
+    <div className={style.container} style={{ fontFamily: "Brittany" }}>
+      {isShopHome ? "Shop" : shopCat.name}
+    </div>
   );
 };
 

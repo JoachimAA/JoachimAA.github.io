@@ -48,6 +48,10 @@
   text-decoration: none;
 }
 
+.link:hover .name {
+  text-decoration: underline;
+}
+
 .itemInformation {
   width: 85%;
   margin: auto;

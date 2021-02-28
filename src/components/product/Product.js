@@ -5,6 +5,8 @@ import ProductInformation from "./ProductInformation";
 import style from "./product.module.css";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 const Product = ({ data, location }) => {
   //will only work with up to 9 images
@@ -22,6 +24,9 @@ const Product = ({ data, location }) => {
       <Header />
       <div className={style.topContainer}>
         <div className={style.bigPictureContainer}>
+          <div className={style.arrow}>
+            <ArrowBackIosIcon />
+          </div>
           {sortedImages.length > 0 ? (
             <Img
               fluid={sortedImages[selectedImage].node.childImageSharp.fluid}
@@ -30,6 +35,9 @@ const Product = ({ data, location }) => {
           ) : (
             <div>no image</div>
           )}
+          <div className={style.arrow}>
+            <ArrowForwardIosIcon />
+          </div>
         </div>
         <div className={style.moreImagesContainer}>
           {sortedImages.map((picture, idx) => (

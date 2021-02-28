@@ -6,6 +6,12 @@
   color: var(--text-black);
 }
 
+.mainTitle {
+  font-size: 55px;
+  text-align: center;
+  margin: 40px 0px 65px 0;
+}
+
 .container {
   margin: 0 3%;
 }
@@ -29,4 +35,17 @@
   font-size: 55px;
   text-align: center;
   margin: 38px 0;
+}
+
+.bottomImagesContainer {
+  margin-top: 45px;
+  display: flex;
+}
+
+.bottomImages {
+  height: 35vw;
+  margin: 1vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

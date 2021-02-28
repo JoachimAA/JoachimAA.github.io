@@ -7,3 +7,8 @@
   font-family: "Montserrat-Regular";
   src: url("../fonts/Montserrat-Regular.ttf");
 }
+
+@font-face {
+  font-family: "Brittany";
+  src: url("../fonts/Brittany.ttf");
+}

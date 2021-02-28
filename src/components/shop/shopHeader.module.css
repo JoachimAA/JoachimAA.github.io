@@ -3,7 +3,7 @@
 .container {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 40px 0px 65px 0;
   font-size: 55px;
   color: var(--text-black);
 }
