@@ -77,7 +77,7 @@
           ]
         },
         {
-          "name": "Place Card | Watercolour",
+          "name": "Place Cards | Watercolour",
           "sampleTrue": false,
           "shouldContact": false,
           "includes": "- 25/50/100 Place Cards",
@@ -125,10 +125,10 @@
           ]
         },
         {
-          "name": "Table Number/Name Cards | Watercolour",
+          "name": "Table Name Cards | Watercolour",
           "sampleTrue": false,
           "shouldContact": false,
-          "includes": "- 10/12/15 Double Sided Table Number/Name Cards",
+          "includes": "- 10/12/15 Double Sided Table Name Cards",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery",
           "optionalIncludes": "",
           "custom": "These cards can be customised to suit your style and personalised to any table names you may have. Please contact me for custom quantities or if you have any questions at all.",
