@@ -5,9 +5,8 @@ import ProductInformation from "./ProductInformation";
 import style from "./product.module.css";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
-import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
-import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
-
+import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 const Product = ({ data, location }) => {
   //will only work with up to 9 images
   const sortedImages = data.allFile.edges.sort((a, b) => {
@@ -24,8 +23,18 @@ const Product = ({ data, location }) => {
       <Header />
       <div className={style.topContainer}>
         <div className={style.bigPictureContainer}>
-          <div className={style.arrow}>
-            <ArrowBackIosIcon />
+          <div
+            className={style.arrow}
+            onClick={() => {
+              selectedImage !== 0
+                ? setSelectedImage(selectedImage - 1)
+                : setSelectedImage(sortedImages.length - 1);
+            }}
+            style={{
+              left: "calc(0% + 8px)",
+            }}
+          >
+            <ChevronLeftIcon fontSize="large" />
           </div>
           {sortedImages.length > 0 ? (
             <Img
@@ -35,8 +44,18 @@ const Product = ({ data, location }) => {
           ) : (
             <div>no image</div>
           )}
-          <div className={style.arrow}>
-            <ArrowForwardIosIcon />
+          <div
+            className={style.arrow}
+            onClick={() => {
+              selectedImage !== sortedImages.length - 1
+                ? setSelectedImage(selectedImage + 1)
+                : setSelectedImage(0);
+            }}
+            style={{
+              right: "calc(0% + 8px)",
+            }}
+          >
+            <ChevronRightIcon fontSize="large" />
           </div>
         </div>
         <div className={style.moreImagesContainer}>

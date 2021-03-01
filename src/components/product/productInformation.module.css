@@ -60,6 +60,7 @@
   cursor: pointer;
   color: var(--text-black);
   border-radius: 5px;
+  outline: none;
 }
 
 .basketButton {

@@ -2,6 +2,58 @@ import React, { useState } from "react";
 import style from "./productInformation.module.css";
 import "../../css/vars.css";
 
+const IncludeListItems = ({ firstTier, title, listItems, selectedTier }) => {
+  return (
+    <div className={style.infoSectionContainer}>
+      {listItems ? (
+        <div>
+          <div
+            className={style.subTitle}
+            style={{ fontFamily: "Montserrat-Regular" }}
+          >
+            {title}
+          </div>
+          {listItems.map((include) => {
+            let newInclude = include;
+            if (include.includes(firstTier + "/")) {
+              const start = include.indexOf(firstTier);
+              const startOfTier = include.substring(start);
+              const goodChars = [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "/",
+              ];
+              let found = false;
+              let end = 0;
+              for (let i = 0; i < startOfTier.length; i++) {
+                if (!goodChars.includes(startOfTier[i]) && !found) {
+                  found = true;
+                  end = i;
+                }
+              }
+              newInclude = include.replace(
+                include.substring(start, end + start),
+                selectedTier
+              );
+            }
+            return <div key={include}>{newInclude}</div>;
+          })}
+        </div>
+      ) : (
+        <div />
+      )}
+    </div>
+  );
+};
+
 const ListItems = ({ title, listItems }) => {
   return (
     <div className={style.infoSectionContainer}>
@@ -63,7 +115,6 @@ const ProductInformation = ({ item }) => {
               fontFamily: "Montserrat-Regular",
             }}
             onClick={() => {
-              console.log("clicking tier selcted -> ", tier.name);
               setTierSelected(tier.name);
             }}
           >
@@ -81,7 +132,12 @@ const ProductInformation = ({ item }) => {
           : ""}
       </div>
       <div className={style.description}>{description}</div>
-      <ListItems title={"Includes:"} listItems={includes} />
+      <IncludeListItems
+        title={"Includes:"}
+        listItems={includes}
+        firstTier={item.tiers[0].name}
+        selectedTier={tierSelected}
+      />
       <ListItems title={"Optional extras:"} listItems={optionalIncludes} />
       <div>{custom}</div>
       <div className={style.infoSectionContainer}>

@@ -28,12 +28,6 @@ const ContactDetails = () => {
         Please get in touch to discuss personalization or ideas that you would
         like me to design for you.
       </div>
-      <div className={style.contactContainer}>
-        <div className={style.icon}>
-          <MailOutlineIcon />
-        </div>
-        <div className={style.contactInfo}>artheypaperdesigns@hotmail.com</div>
-      </div>
       <a
         href={SocialMediaLinks.instagram}
         style={{ textDecoration: "none" }}
@@ -60,6 +54,12 @@ const ContactDetails = () => {
           <div className={style.contactInfo}>ArtheyPaperDesigns</div>
         </div>
       </a>
+      <div className={style.contactContainer}>
+        <div className={style.icon}>
+          <MailOutlineIcon />
+        </div>
+        <div className={style.contactInfo}>artheypaperdesigns@hotmail.com</div>
+      </div>
     </div>
   );
 };
