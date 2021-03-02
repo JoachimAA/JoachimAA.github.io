@@ -11,6 +11,26 @@ import orderOfService from "../../images/products/wedding-stationery/order-of-se
 import placeCards from "../../images/products/wedding-stationery/place-cards-watercolour/1.jpg";
 import tableNameCards from "../../images/products/wedding-stationery/table-name-cards-watercolour/1.jpg";
 import tablePlan from "../../images/products/wedding-stationery/table-plan-watercolour/1.jpg";
+import signage from "../../images/products/wedding-stationery/signage-watercolour/1.jpg";
+import rehearsalDinner from "../../images/products/wedding-stationery/rehearsal-dinner-invitation-watercolour/1.jpg";
+import advicePink from "../../images/products/bridal-shower/advice-to-the-bride-cards-pink-floral/1.jpg";
+import adviceBlue from "../../images/products/bridal-shower/advice-to-the-bride-cards-blue-floral/1.jpg";
+import bridalBlue from "../../images/products/bridal-shower/bridal-shower-invitation-blue-floral/1.jpg";
+import bridalPink from "../../images/products/bridal-shower/bridal-shower-invitation-pink-floral/1.jpg";
+import babyInvitation from "../../images/products/baby-shower/baby-shower-invitation-rainbow/1.jpg";
+import babyWishes from "../../images/products/baby-shower/wishes-for-the-baby-cards-rainbow/1.jpg";
+import babyPrediction from "../../images/products/baby-shower/baby-prediction-cards-rainbow/1.jpg";
+import babyWisdom from "../../images/products/baby-shower/words-of-wisdom-for-the-mum-to-be-cards-rainbow/1.jpg";
+import addressEucalyptus from "../../images/products/announcement-cards/new-address-card-eucalyptus/1.jpg";
+import addressPaint from "../../images/products/announcement-cards/new-address-card-paint-samples/1.jpg";
+import anniversaryStars from "../../images/products/invitations/anniversary-invitation-stars/1.jpg";
+import baptismCross from "../../images/products/invitations/baptism-celebration-invitation-cross/1.jpg";
+import birthdayBlack from "../../images/products/invitations/birthday-invitation-black-&-gold/1.jpg";
+import birthdayBlue from "../../images/products/invitations/birthday-invitation-blue-floral/1.jpg";
+import birthdayPink from "../../images/products/invitations/birthday-invitation-pink-&-gold/1.jpg";
+import housewarmingEucalyptus from "../../images/products/invitations/housewarming-party-invitation-eucalyptus/1.jpg";
+import housewarmingPaint from "../../images/products/invitations/housewarming-party-invitation-paint-samples/1.jpg";
+import kidStars from "../../images/products/invitations/kids-birthday-invitation-stars/1.jpg";
 
 const GetProductImage = (item) => {
   switch (item) {
@@ -30,6 +50,46 @@ const GetProductImage = (item) => {
       return tableNameCards;
     case "table-plan-watercolour":
       return tablePlan;
+    case "signage-watercolour":
+      return signage;
+    case "rehearsal-dinner-invitation-watercolour":
+      return rehearsalDinner;
+    case "advice-to-the-bride-cards-pink-floral":
+      return advicePink;
+    case "advice-to-the-bride-cards-blue-floral":
+      return adviceBlue;
+    case "bridal-shower-invitation-blue-floral":
+      return bridalBlue;
+    case "bridal-shower-invitation-pink-floral":
+      return bridalPink;
+    case "baby-shower-invitation-rainbow":
+      return babyInvitation;
+    case "words-of-wisdom-for-the-mum-to-be-cards-rainbow":
+      return babyWisdom;
+    case "wishes-for-the-baby-cards-rainbow":
+      return babyWishes;
+    case "baby-prediction-cards-rainbow":
+      return babyPrediction;
+    case "new-address-card-eucalyptus":
+      return addressEucalyptus;
+    case "new-address-card-paint-samples":
+      return addressPaint;
+    case "anniversary-invitation-stars":
+      return anniversaryStars;
+    case "baptism-celebration-invitation-cross":
+      return baptismCross;
+    case "birthday-invitation-black-&-gold":
+      return birthdayBlack;
+    case "birthday-invitation-blue-floral":
+      return birthdayBlue;
+    case "birthday-invitation-pink-&-gold":
+      return birthdayPink;
+    case "housewarming-party-invitation-eucalyptus":
+      return housewarmingEucalyptus;
+    case "housewarming-party-invitation-paint-samples":
+      return housewarmingPaint;
+    case "kids-birthday-invitation-stars":
+      return kidStars;
     default:
       return "";
   }

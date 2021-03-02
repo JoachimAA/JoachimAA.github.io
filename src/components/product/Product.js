@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import ProductInformation from "./ProductInformation";
@@ -23,19 +23,23 @@ const Product = ({ data, location }) => {
       <Header />
       <div className={style.topContainer}>
         <div className={style.bigPictureContainer}>
-          <div
-            className={style.arrow}
-            onClick={() => {
-              selectedImage !== 0
-                ? setSelectedImage(selectedImage - 1)
-                : setSelectedImage(sortedImages.length - 1);
-            }}
-            style={{
-              left: "calc(0% + 8px)",
-            }}
-          >
-            <ChevronLeftIcon fontSize="large" />
-          </div>
+          {sortedImages.length > 1 ? (
+            <div
+              className={style.arrow}
+              onClick={() => {
+                selectedImage !== 0
+                  ? setSelectedImage(selectedImage - 1)
+                  : setSelectedImage(sortedImages.length - 1);
+              }}
+              style={{
+                left: "calc(0% + 8px)",
+              }}
+            >
+              <ChevronLeftIcon fontSize="large" />
+            </div>
+          ) : (
+            <Fragment />
+          )}
           {sortedImages.length > 0 ? (
             <Img
               fluid={sortedImages[selectedImage].node.childImageSharp.fluid}
@@ -44,19 +48,23 @@ const Product = ({ data, location }) => {
           ) : (
             <div>no image</div>
           )}
-          <div
-            className={style.arrow}
-            onClick={() => {
-              selectedImage !== sortedImages.length - 1
-                ? setSelectedImage(selectedImage + 1)
-                : setSelectedImage(0);
-            }}
-            style={{
-              right: "calc(0% + 8px)",
-            }}
-          >
-            <ChevronRightIcon fontSize="large" />
-          </div>
+          {sortedImages.length > 1 ? (
+            <div
+              className={style.arrow}
+              onClick={() => {
+                selectedImage !== sortedImages.length - 1
+                  ? setSelectedImage(selectedImage + 1)
+                  : setSelectedImage(0);
+              }}
+              style={{
+                right: "calc(0% + 8px)",
+              }}
+            >
+              <ChevronRightIcon fontSize="large" />
+            </div>
+          ) : (
+            <Fragment />
+          )}
         </div>
         <div className={style.moreImagesContainer}>
           {sortedImages.map((picture, idx) => (
