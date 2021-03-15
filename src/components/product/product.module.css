@@ -30,6 +30,8 @@
   width: 60%;
   margin: auto;
   margin-bottom: 24px;
+  cursor: pointer;
+  padding: 2px;
 }
 
 .moreImageContent {
@@ -54,5 +56,6 @@
   top: calc(50% - 25px);
   opacity: 0;
   transition: 0.3s;
+  cursor: pointer;
   /* minus half the height */
 }

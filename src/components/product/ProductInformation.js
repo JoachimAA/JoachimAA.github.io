@@ -122,7 +122,16 @@ const ProductInformation = ({ item }) => {
           </button>
         ))}
       </div>
-      <div className={style.basketButton}>Add to basket</div>
+      <div className={style.basketButton}>
+        <a
+          href={item.link ? item.link : ""}
+          className={style.link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open in Etsy
+        </a>
+      </div>
       <div>
         {item.sampleTrue ? "This is for a non-personalised sample only." : ""}
       </div>

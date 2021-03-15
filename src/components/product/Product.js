@@ -7,6 +7,7 @@ import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+
 const Product = ({ data, location }) => {
   //will only work with up to 9 images
   const sortedImages = data.allFile.edges.sort((a, b) => {
@@ -69,6 +70,9 @@ const Product = ({ data, location }) => {
         <div className={style.moreImagesContainer}>
           {sortedImages.map((picture, idx) => (
             <div
+              style={{
+                outline: selectedImage === idx ? "solid 2px #474747" : "none",
+              }}
               key={picture.node.name}
               className={style.moreImageContainer}
               onClick={() => setSelectedImage(idx)}
