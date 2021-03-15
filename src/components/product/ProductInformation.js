@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import style from "./productInformation.module.css";
 import "../../css/vars.css";
+import { Fragment } from "react";
 
 const IncludeListItems = ({ firstTier, title, listItems, selectedTier }) => {
   return (
@@ -122,16 +123,20 @@ const ProductInformation = ({ item }) => {
           </button>
         ))}
       </div>
-      <div className={style.basketButton}>
-        <a
-          href={item.link ? item.link : ""}
-          className={style.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Open in Etsy
-        </a>
-      </div>
+      {item.link ? (
+        <div className={style.basketButton}>
+          <a
+            href={item.link ? item.link : ""}
+            className={style.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open in Etsy
+          </a>
+        </div>
+      ) : (
+        <Fragment />
+      )}
       <div>
         {item.sampleTrue ? "This is for a non-personalised sample only." : ""}
       </div>

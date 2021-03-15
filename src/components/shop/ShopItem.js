@@ -8,7 +8,7 @@ import saveTheDate from "../../images/products/wedding-stationery/save-the-date-
 import adviceToBride from "../../images/products/wedding-stationery/advice-to-the-bride-and-groom-cards-watercolour/1.jpg";
 import menu from "../../images/products/wedding-stationery/menu-watercolour/1.jpg";
 import orderOfService from "../../images/products/wedding-stationery/order-of-service-watercolour/1.jpg";
-import placeCards from "../../images/products/wedding-stationery/place-cards-watercolour/1.jpg";
+import placeCard from "../../images/products/wedding-stationery/place-card-watercolour/1.jpg";
 import tableNameCards from "../../images/products/wedding-stationery/table-name-cards-watercolour/1.jpg";
 import tablePlan from "../../images/products/wedding-stationery/table-plan-watercolour/1.jpg";
 import signage from "../../images/products/wedding-stationery/signage-watercolour/1.jpg";
@@ -44,8 +44,8 @@ const GetProductImage = (item) => {
       return menu;
     case "order-of-service-watercolour":
       return orderOfService;
-    case "place-cards-watercolour":
-      return placeCards;
+    case "place-card-watercolour":
+      return placeCard;
     case "table-name-cards-watercolour":
       return tableNameCards;
     case "table-plan-watercolour":
