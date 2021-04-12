@@ -42,7 +42,7 @@ import greetingCardCactus from "../../images/products/greeting-cards/greeting-ca
 import thankYouCardFloral from "../../images/products/greeting-cards/thank-you-card-floral/1.jpg";
 import thankYouCardFoliage from "../../images/products/greeting-cards/thank-you-card-foliage/1.jpg";
 
-const GetProductImage = (item) => {
+const GetProductImage = (item, hasVariants) => {
   switch (item) {
     case "wedding-invitation-suite-watercolour":
       return weddingSuiteInvitation;
@@ -128,6 +128,8 @@ const GetProductImage = (item) => {
 const ShopItem = ({ item, categorySlug }) => {
   const sampleCost = item.tiers[0].price ? item.tiers[0].price : "Unknown";
   const itemSlug = TurnIntoSlug(item.name);
+  // console.log("item -> ", item);
+  // const allImages = importAll(require.context('./images/', false, /\.(png|jpe?g|svg)$/));
 
   return (
     <div className={style.container}>
@@ -139,7 +141,12 @@ const ShopItem = ({ item, categorySlug }) => {
         <div className={style.image}>
           <div
             className={style.imageSrc}
-            style={{ backgroundImage: `url(${GetProductImage(itemSlug)})` }}
+            style={{
+              backgroundImage: `url(${GetProductImage(
+                itemSlug,
+                item?.variants ? true : false
+              )})`,
+            }}
           ></div>
         </div>
         <div className={style.itemInformation}>

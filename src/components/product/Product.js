@@ -14,8 +14,6 @@ const Product = ({ data, location }) => {
     return a.node.name - b.node.name;
   });
 
-  console.log(sortedImages);
-
   const [selectedImage, setSelectedImage] = useState(0);
 
   const item = location.state.item;
@@ -85,7 +83,7 @@ const Product = ({ data, location }) => {
           ))}
         </div>
         <div className={style.informationContainer}>
-          <ProductInformation item={item} />
+          <ProductInformation item={item} setSelectedImage={setSelectedImage} />
         </div>
       </div>
       <Footer />

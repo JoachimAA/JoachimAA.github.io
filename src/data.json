@@ -16,6 +16,12 @@
           "sizes": "The invitations are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The invitations are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            { "name": "Watercolour", "imageIndex": 0 },
+            { "name": "Geometric Floral", "imageIndex": 1 },
+            { "name": "Eucalyptus", "imageIndex": 2 },
+            { "name": "Blue Floral", "imageIndex": 3 }
+          ],
           "tiers": [
             {
               "name": "Sample",
@@ -87,6 +93,12 @@
           "sizes": "The cards are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The cards are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            { "name": "Watercolour", "imageIndex": 0 },
+            { "name": "Geometric Floral", "imageIndex": 1 },
+            { "name": "Eucalyptus", "imageIndex": 2 },
+            { "name": "Blue Floral", "imageIndex": 3 }
+          ],
           "tiers": [
             {
               "name": "Sample",
@@ -158,6 +170,12 @@
           "sizes": "The save the dates are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
           "materials": "The save the dates are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            { "name": "Watercolour", "imageIndex": 0 },
+            { "name": "Geometric Floral", "imageIndex": 1 },
+            { "name": "Eucalyptus", "imageIndex": 2 },
+            { "name": "Blue Floral", "imageIndex": 3 }
+          ],
           "tiers": [
             {
               "name": "Sample",

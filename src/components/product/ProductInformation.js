@@ -77,7 +77,7 @@ const ListItems = ({ title, listItems }) => {
   );
 };
 
-const ProductInformation = ({ item }) => {
+const ProductInformation = ({ item, setSelectedImage }) => {
   const includes = item.includes && item.includes.split("?");
   const optionalIncludes =
     item.optionalIncludes && item.optionalIncludes.split("?");
@@ -87,6 +87,9 @@ const ProductInformation = ({ item }) => {
   const alsoAvailable = item.alsoAvailable && item.alsoAvailable.split("?");
   const description = item.description ?? "";
   const [tierSelected, setTierSelected] = useState(item.tiers[0].name);
+  const [variantSelected, setVariantSelected] = useState(
+    item?.variants && item?.variants.length > 0 && item?.variants[0]?.name
+  );
   const findPrice = item.tiers.find((tier) => tier.name === tierSelected);
   const price = findPrice ? findPrice.price : "Unknown";
   return (
@@ -99,6 +102,44 @@ const ProductInformation = ({ item }) => {
         {typeof price === "number" ? "£" + price.toFixed(2) : price}
       </div>
       <div className={style.divider} />
+      {item.variants ? (
+        <Fragment>
+          <div
+            className={style.quantityTitle}
+            style={{ fontFamily: "Montserrat-Regular", marginBottom: "5px" }}
+          >
+            Variant :
+          </div>
+          <div className={style.quantitySelector}>
+            {item.variants.map((variant) => (
+              <button
+                key={variant.name}
+                className={style.variantBox}
+                style={{
+                  backgroundColor:
+                    variant.name === variantSelected
+                      ? "var(--logo-pink)"
+                      : "#ffffff",
+                  fontFamily: "Montserrat-Regular",
+                }}
+                onClick={() => {
+                  setVariantSelected(variant.name);
+                  console.log(
+                    "name -> ",
+                    variant.name + " variant imageIndex -> ",
+                    variant.imageIndex
+                  );
+                  setSelectedImage(variant.imageIndex);
+                }}
+              >
+                {variant.name}
+              </button>
+            ))}
+          </div>
+        </Fragment>
+      ) : (
+        <div />
+      )}
       <div
         className={style.quantityTitle}
         style={{ fontFamily: "Montserrat-Regular", marginBottom: "5px" }}

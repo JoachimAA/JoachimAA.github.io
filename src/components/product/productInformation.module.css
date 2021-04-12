@@ -63,6 +63,19 @@
   outline: none;
 }
 
+.variantBox {
+  border: solid 1px var(--logo-pink);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+  color: var(--text-black);
+  border-radius: 5px;
+  outline: none;
+}
+
 .basketButton {
   border: solid 1px var(--logo-pink);
   margin-bottom: 25px;
