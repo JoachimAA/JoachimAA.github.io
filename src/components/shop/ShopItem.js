@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { TurnIntoSlug } from "../../utils/helpers";
 
 import weddingSuiteInvitation from "../../images/products/wedding-stationery/wedding-invitation-suite-watercolour/1.jpg";
+import addInsertWatercolour from "../../images/products/wedding-stationery/additional-insert-for-wedding-invitation-suite-watercolour/1.jpg";
 import saveTheDate from "../../images/products/wedding-stationery/save-the-date-watercolour/1.jpg";
 import adviceToBride from "../../images/products/wedding-stationery/advice-to-the-bride-and-groom-cards-watercolour/1.jpg";
 import menu from "../../images/products/wedding-stationery/menu-watercolour/1.jpg";
@@ -31,6 +32,15 @@ import birthdayPink from "../../images/products/invitations/birthday-invitation-
 import housewarmingEucalyptus from "../../images/products/invitations/housewarming-party-invitation-eucalyptus/1.jpg";
 import housewarmingPaint from "../../images/products/invitations/housewarming-party-invitation-paint-samples/1.jpg";
 import kidStars from "../../images/products/invitations/kids-birthday-invitation-stars/1.jpg";
+import baptismCard from "../../images/products/greeting-cards/baptism-card-cross/1.jpg";
+import birthdayCardGrey from "../../images/products/greeting-cards/birthday-card-grey-geometric/1.jpg";
+import birthdayCardPink from "../../images/products/greeting-cards/birthday-card-pink-geometric/1.jpg";
+import brideToBeHeartCard from "../../images/products/greeting-cards/bride-to-be-card-heart/1.jpg";
+import christeningCardDove from "../../images/products/greeting-cards/christening-card-dove/1.jpg";
+import greetingCardHappy from "../../images/products/greeting-cards/greeting-card-bee-happy/1.jpg";
+import greetingCardCactus from "../../images/products/greeting-cards/greeting-card-cactus/1.jpg";
+import thankYouCardFloral from "../../images/products/greeting-cards/thank-you-card-floral/1.jpg";
+import thankYouCardFoliage from "../../images/products/greeting-cards/thank-you-card-foliage/1.jpg";
 
 const GetProductImage = (item) => {
   switch (item) {
@@ -90,6 +100,26 @@ const GetProductImage = (item) => {
       return housewarmingPaint;
     case "kids-birthday-invitation-stars":
       return kidStars;
+    case "baptism-card-cross":
+      return baptismCard;
+    case "birthday-card-grey-geometric":
+      return birthdayCardGrey;
+    case "birthday-card-pink-geometric":
+      return birthdayCardPink;
+    case "bride-to-be-card-heart":
+      return brideToBeHeartCard;
+    case "christening-card-dove":
+      return christeningCardDove;
+    case "greeting-card-bee-happy":
+      return greetingCardHappy;
+    case "greeting-card-cactus":
+      return greetingCardCactus;
+    case "thank-you-card-floral":
+      return thankYouCardFloral;
+    case "thank-you-card-foliage":
+      return thankYouCardFoliage;
+    case "additional-insert-for-wedding-invitation-suite-watercolour":
+      return addInsertWatercolour;
     default:
       return "";
   }

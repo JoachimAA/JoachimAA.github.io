@@ -76,6 +76,77 @@
           ]
         },
         {
+          "name": "Additional Insert for Wedding Invitation Suite | Watercolour",
+          "link": "https://www.etsy.com/uk/listing/985226523/additional-inserts-for-wedding",
+          "description": "These additional inserts are designed to go with the wedding invitation suite to allow you to add extra information and continue to deliver a beautiful message to your guests.",
+          "sampleTrue": false,
+          "includes": "- Information Card",
+          "optionalIncludes": "",
+          "custom": "Please purchase the same quantity as the number of invitations you purchase, if you require multiple additional invitations please purchase this product multiple times altering the personalisation information for what you require on each. Please contact me for custom quantities or if you have any questions at all.",
+          "personalisation": "Please provide the information you require to be included on the card, if you run out of space in the personalisation box please email the details to ArtheyPaperDesigns@hotmail.com and quote your order number. Please also make a note of your name in the personalisation box on both this item and the wedding invitation suite. I will email you with a draft before printing, within 3 days of receiving your personalisation details.",
+          "sizes": "The cards are A6 (105 x 148mm), larger sizes (A5 and 5”x7”) are available on request.",
+          "materials": "The cards are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
+          "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "tiers": [
+            {
+              "name": "Sample",
+              "price": 1.0
+            },
+            {
+              "name": "20",
+              "price": 20.0
+            },
+            {
+              "name": "30",
+              "price": 30.0
+            },
+            {
+              "name": "40",
+              "price": 40.0
+            },
+            {
+              "name": "50",
+              "price": 50.0
+            },
+            {
+              "name": "60",
+              "price": 60.0
+            },
+            {
+              "name": "70",
+              "price": 70.0
+            },
+            {
+              "name": "80",
+              "price": 80.0
+            },
+            {
+              "name": "90",
+              "price": 90.0
+            },
+            {
+              "name": "100",
+              "price": 100.0
+            },
+            {
+              "name": "125",
+              "price": 125.0
+            },
+            {
+              "name": "150",
+              "price": 150.0
+            },
+            {
+              "name": "175",
+              "price": 175.0
+            },
+            {
+              "name": "200",
+              "price": 200.0
+            }
+          ]
+        },
+        {
           "name": "Save the Date | Watercolour",
           "link": "https://www.etsy.com/uk/listing/973921725/wedding-save-the-date-watercolour",
           "description": "This luxury card is the perfect way to announce your big day to your guests! Give your save the dates the finishing touch with a wax seal.",
@@ -903,6 +974,190 @@
             {
               "name": "40",
               "price": 30.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greeting Cards",
+      "slug": "greeting-cards",
+      "items": [
+        {
+          "name": "Birthday Card | Grey Geometric",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Smoke Grey Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "If you would like me to write your message inside the card and send it straight to the recipient I can do this for a small additional cost. Please provide the message and recipient address in the personalisation box.",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            }
+          ]
+        },
+        {
+          "name": "Birthday Card | Pink Geometric",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Rose Gold Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "If you would like me to write your message inside the card and send it straight to the recipient I can do this for a small additional cost. Please provide the message and recipient address in the personalisation box.",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            }
+          ]
+        },
+        {
+          "name": "Thank You Card | Floral",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Dusky Pink Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "These cards come individually or in a pack of 5 for the price of 4.",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            },
+            {
+              "name": "5",
+              "price": 10.0
+            }
+          ]
+        },
+        {
+          "name": "Thank You Card | Foliage",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Pastel Blue Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "These cards come individually or in a pack of 5 for the price of 4.",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            },
+            {
+              "name": "5",
+              "price": 10.0
+            }
+          ]
+        },
+        {
+          "name": "Baptism Card | Cross",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Dove Grey Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            }
+          ]
+        },
+        {
+          "name": "Christening Card | Dove",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Dove Grey Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            }
+          ]
+        },
+        {
+          "name": "Greeting Card | Bee Happy",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Ivory Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "These cards come individually or in a pack of 5 for the price of 4.",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            },
+            {
+              "name": "5",
+              "price": 10.0
+            }
+          ]
+        },
+        {
+          "name": "Greeting Card | Cactus",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Smoke Grey Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "These cards come individually or in a pack of 5 for the price of 4.",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
+            },
+            {
+              "name": "5",
+              "price": 10.0
+            }
+          ]
+        },
+        {
+          "name": "Bride-to-be Card | Heart",
+          "sampleTrue": false,
+          "shouldContact": false,
+          "includes": "- Card (blank inside)? - Wine Red Envelope",
+          "description": "These cards are a lovely way to let someone know you are thinking of them! The cards are blank inside for your own message. Please contact me if you have any questions at all.",
+          "optionalIncludes": "",
+          "custom": "",
+          "sizes": "These cards are A6 (105 x 148mm).",
+          "materials": "These cards are printed on 250gsm luxury textured card, which is recyclable.",
+          "alsoAvailable": "",
+          "tiers": [
+            {
+              "name": "1",
+              "price": 2.5
             }
           ]
         }

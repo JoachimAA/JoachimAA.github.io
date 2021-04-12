@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./aboutDetails.module.css";
-import MeSrc from "../images/me.png";
+import MeSrc from "../images/me.jpg";
 import About1 from "../images/about/1.jpg";
 import About2 from "../images/about/2.jpg";
 import About3 from "../images/about/3.jpg";
