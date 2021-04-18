@@ -2,6 +2,7 @@ import React from "react";
 import style from "./header.module.css";
 import NavLink from "./NavLink";
 import LogoSrc from "../images/logo.svg";
+import Hamburger from "../images/hamburger.svg";
 import { Link } from "gatsby";
 import ExpandIcon from "./common/ExpandIcon";
 
@@ -27,10 +28,17 @@ const SubMenu = () => {
 const Header = () => {
   return (
     <div className={style.headerContainer}>
-      <div
-        className={style.headerLogo}
-        style={{ backgroundImage: `url(${LogoSrc})` }}
-      />
+      <div className={style.logoHamburgerContainer}>
+        <div
+          className={style.headerLogo}
+          style={{ backgroundImage: `url(${LogoSrc})` }}
+        />
+        <div
+          className={style.hamburger}
+          style={{ backgroundImage: `url(${Hamburger})` }}
+        />
+      </div>
+
       <div className={style.divider} />
       <div style={{ fontFamily: "Montserrat" }} className={style.navigationBar}>
         <div className={style.headerTitle}>

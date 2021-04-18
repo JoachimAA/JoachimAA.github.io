@@ -36,7 +36,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin: 0 0 40px 0;
 }
 
 .navigationBar {
@@ -89,10 +88,50 @@
   width: 100%;
 }
 
+.logoHamburgerContainer {
+  margin: 0 0 40px 0;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .hoverText {
   margin: 10px 0 10px 12px;
 }
 
 .hoverText:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .divider {
+    display: none;
+  }
+
+  .navigationBar {
+    display: none;
+  }
+
+  .headerLogo {
+    background-position: left;
+    height: 120px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .headerContainer {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: auto;
+  }
 }
