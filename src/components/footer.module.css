@@ -60,3 +60,35 @@
 .link:hover {
   color: #f595a5;
 }
+
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+  }
+
+  .categoryContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .categoriesContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 0px 3% 0 3%;
+  }
+
+  .logoContainer {
+    width: 100%;
+  }
+
+  .logo {
+    background-position: center;
+    height: 110px;
+    /* could make height smaller on even smaller devices */
+    margin: 40px;
+  }
+
+  .socialContainer {
+    padding-bottom: 20px;
+  }
+}
