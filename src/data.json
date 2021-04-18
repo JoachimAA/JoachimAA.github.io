@@ -5,7 +5,7 @@
       "slug": "wedding-stationery",
       "items": [
         {
-          "name": "Wedding Invitation Suite | Watercolour",
+          "name": "Wedding Invitation Suite | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/973835151/wedding-invitation-suite-watercolour",
           "description": "This is a luxury textured card which will bring extra elegance to your wedding stationary. The flat card design gives the option for as many additional cards as you require, allowing you to deliver a beautiful message to your guests. Give your invitations the finishing touch with a wax seal.",
           "sampleTrue": true,
@@ -17,10 +17,26 @@
           "materials": "The invitations are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
           "variants": [
-            { "name": "Watercolour", "imageIndex": 0 },
-            { "name": "Geometric Floral", "imageIndex": 1 },
-            { "name": "Eucalyptus", "imageIndex": 2 },
-            { "name": "Blue Floral", "imageIndex": 3 }
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/973835151/wedding-invitation-suite-watercolour"
+            },
+            {
+              "name": "Geometric Floral",
+              "imageIndex": 1,
+              "link": "https://www.etsy.com/uk/listing/980163646/wedding-invitation-suite-geometric"
+            },
+            {
+              "name": "Eucalyptus",
+              "imageIndex": 2,
+              "link": "https://www.etsy.com/uk/listing/980166104/wedding-invitation-suite-eucalyptus"
+            },
+            {
+              "name": "Blue Floral",
+              "imageIndex": 3,
+              "link": "https://www.etsy.com/uk/listing/980167756/wedding-invitation-suite-blue-floral"
+            }
           ],
           "tiers": [
             {
@@ -82,7 +98,7 @@
           ]
         },
         {
-          "name": "Additional Insert for Wedding Invitation Suite | Watercolour",
+          "name": "Additional Insert for Wedding Invitation Suite | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/985226523/additional-inserts-for-wedding",
           "description": "These additional inserts are designed to go with the wedding invitation suite to allow you to add extra information and continue to deliver a beautiful message to your guests.",
           "sampleTrue": false,
@@ -94,10 +110,26 @@
           "materials": "The cards are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
           "variants": [
-            { "name": "Watercolour", "imageIndex": 0 },
-            { "name": "Geometric Floral", "imageIndex": 1 },
-            { "name": "Eucalyptus", "imageIndex": 2 },
-            { "name": "Blue Floral", "imageIndex": 3 }
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/985226523/additional-inserts-for-wedding"
+            },
+            {
+              "name": "Geometric Floral",
+              "imageIndex": 1,
+              "link": "https://www.etsy.com/uk/listing/980164394/additional-inserts-for-wedding"
+            },
+            {
+              "name": "Eucalyptus",
+              "imageIndex": 2,
+              "link": "https://www.etsy.com/uk/listing/980166646/additional-inserts-for-wedding"
+            },
+            {
+              "name": "Blue Floral",
+              "imageIndex": 3,
+              "link": "https://www.etsy.com/uk/listing/980168156/additional-inserts-for-wedding"
+            }
           ],
           "tiers": [
             {
@@ -159,7 +191,7 @@
           ]
         },
         {
-          "name": "Save the Date | Watercolour",
+          "name": "Save the Date | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/973921725/wedding-save-the-date-watercolour",
           "description": "This luxury card is the perfect way to announce your big day to your guests! Give your save the dates the finishing touch with a wax seal.",
           "sampleTrue": true,
@@ -171,10 +203,26 @@
           "materials": "The save the dates are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
           "variants": [
-            { "name": "Watercolour", "imageIndex": 0 },
-            { "name": "Geometric Floral", "imageIndex": 1 },
-            { "name": "Eucalyptus", "imageIndex": 2 },
-            { "name": "Blue Floral", "imageIndex": 3 }
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/973921725/wedding-save-the-date-watercolour"
+            },
+            {
+              "name": "Geometric Floral",
+              "imageIndex": 1,
+              "link": "https://www.etsy.com/uk/listing/994121921/wedding-save-the-date-geometric-floral"
+            },
+            {
+              "name": "Eucalyptus",
+              "imageIndex": 2,
+              "link": "https://www.etsy.com/uk/listing/980167148/wedding-save-the-date-eucalyptus"
+            },
+            {
+              "name": "Blue Floral",
+              "imageIndex": 3,
+              "link": "https://www.etsy.com/uk/listing/980169598/wedding-save-the-date-blue-floral"
+            }
           ],
           "tiers": [
             {
@@ -236,7 +284,7 @@
           ]
         },
         {
-          "name": "Order of Service | Watercolour",
+          "name": "Order of Service | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/974235897/wedding-order-of-service-watercolour",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery.",
           "sampleTrue": true,
@@ -247,6 +295,13 @@
           "sizes": "The order of services are 99 x 210mm, other shapes and sizes are available on request, such as A6 or square.",
           "materials": "The order of services are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/974235897/wedding-order-of-service-watercolour"
+            }
+          ],
           "tiers": [
             {
               "name": "Sample",
@@ -279,7 +334,7 @@
           ]
         },
         {
-          "name": "Menu | Watercolour",
+          "name": "Menu | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/960910100/wedding-menu-watercolour",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery.",
           "sampleTrue": true,
@@ -290,6 +345,13 @@
           "sizes": "The menus are 99 x 210mm, other shapes and sizes are available on request, such as A6 or square.",
           "materials": "The menus are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised and vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/960910100/wedding-menu-watercolour"
+            }
+          ],
           "tiers": [
             {
               "name": "Sample",
@@ -322,7 +384,7 @@
           ]
         },
         {
-          "name": "Place Card | Watercolour",
+          "name": "Place Card | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/960917370/wedding-place-cards-watercolour",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery.",
           "sampleTrue": false,
@@ -333,6 +395,13 @@
           "sizes": "The place cards are 90 x 45mm, a larger size of 100x40mm is available on request.",
           "materials": "The place card is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream and pearlised, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/960917370/wedding-place-cards-watercolour"
+            }
+          ],
           "tiers": [
             {
               "name": "25",
@@ -361,7 +430,7 @@
           ]
         },
         {
-          "name": "Table Plan | Watercolour",
+          "name": "Table Plan | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/960922132/wedding-table-plan-watercolour",
           "description": "This mounted table plan is durable and perfect to be placed on an easel.",
           "sampleTrue": false,
@@ -372,6 +441,13 @@
           "sizes": "The table plan is available in two sizes; A1 (594 x 841mm) and A2 (420 x 594mm).",
           "materials": "The table plan is printed on 5mm Thick Foamex. Other card types are available, such as a Poster Print, Lightweight Foamcore and an Eco Board, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/960922132/wedding-table-plan-watercolour"
+            }
+          ],
           "tiers": [
             {
               "name": "A1",
@@ -384,7 +460,7 @@
           ]
         },
         {
-          "name": "Table Name Cards | Watercolour",
+          "name": "Table Name Cards | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/960965654/wedding-table-name-cards-watercolour",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery.",
           "sampleTrue": false,
@@ -395,6 +471,13 @@
           "sizes": "The cards are square 105 x 105mm, other shapes and sizes such as A7 or A6 are available on request.",
           "materials": "The cards are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream and pearlised, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Signage?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/960965654/wedding-table-name-cards-watercolour"
+            }
+          ],
           "tiers": [
             {
               "name": "10",
@@ -411,7 +494,7 @@
           ]
         },
         {
-          "name": "Signage | Watercolour",
+          "name": "Signage | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/962862752/wedding-sign-watercolour",
           "description": "This mounted sign is durable and perfect to be placed on an easel.",
           "sampleTrue": false,
@@ -422,6 +505,13 @@
           "sizes": "The sign is available in two sizes; A1 (594 x 841mm) and A2 (420 x 594mm).",
           "materials": "The sign is printed on 5mm Thick Foamex. Other card types are available, such as a Poster Print, Lightweight Foamcore or an Eco Board, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Advice to the Bride and Groom Cards?- Rehearsal Dinner Invitation",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/962862752/wedding-sign-watercolour"
+            }
+          ],
           "tiers": [
             {
               "name": "A1",
@@ -434,7 +524,7 @@
           ]
         },
         {
-          "name": "Advice to the Bride and Groom Cards | Watercolour",
+          "name": "Advice to the Bride and Groom Cards | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/962853206/advice-to-the-bride-and-groom-cards",
           "description": "These are a perfect way to get some funny and personal advice from your guests. The luxury textured card will bring extra elegance to your wedding stationery.",
           "sampleTrue": false,
@@ -445,6 +535,13 @@
           "sizes": "The cards are 99 x 210mm, other shapes and sizes are available on request, such as A6 or square.",
           "materials": "The advice card is printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream or pearlised, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Rehearsal Dinner Invitation",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/962853206/advice-to-the-bride-and-groom-cards"
+            }
+          ],
           "tiers": [
             {
               "name": "25",
@@ -473,7 +570,7 @@
           ]
         },
         {
-          "name": "Rehearsal Dinner Invitation | Watercolour",
+          "name": "Rehearsal Dinner Invitation | Capsule Collection",
           "link": "https://www.etsy.com/uk/listing/967330156/rehearsal-dinner-invitation-watercolour",
           "description": "This luxury textured card will bring extra elegance to your wedding stationery. Give your invitation the finishing touch with a wax seal.",
           "sampleTrue": false,
@@ -484,6 +581,13 @@
           "sizes": "The invitations are 99 x 210mm, other shapes and sizes are available on request, such as A6 or square.",
           "materials": "The invitations are printed on 300gsm luxury textured card, which is recyclable. Other card types are available, such as; silk, cream, pearlised or vellum, please let me know if you have something in mind.",
           "alsoAvailable": "- Wedding Invitation Suite?- Save the Date?- Order of Service?- Menu?- Place Card?- Table Plan?- Table Number/Name Cards?- Signage?- Advice to the Bride and Groom Cards",
+          "variants": [
+            {
+              "name": "Watercolour",
+              "imageIndex": 0,
+              "link": "https://www.etsy.com/uk/listing/967330156/rehearsal-dinner-invitation-watercolour"
+            }
+          ],
           "tiers": [
             {
               "name": "20",

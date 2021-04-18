@@ -3,17 +3,17 @@ import style from "./shopItem.module.css";
 import { Link } from "gatsby";
 import { TurnIntoSlug } from "../../utils/helpers";
 
-import weddingSuiteInvitation from "../../images/products/wedding-stationery/wedding-invitation-suite-watercolour/1.jpg";
-import addInsertWatercolour from "../../images/products/wedding-stationery/additional-insert-for-wedding-invitation-suite-watercolour/1.jpg";
-import saveTheDate from "../../images/products/wedding-stationery/save-the-date-watercolour/1.jpg";
-import adviceToBride from "../../images/products/wedding-stationery/advice-to-the-bride-and-groom-cards-watercolour/1.jpg";
-import menu from "../../images/products/wedding-stationery/menu-watercolour/1.jpg";
-import orderOfService from "../../images/products/wedding-stationery/order-of-service-watercolour/1.jpg";
-import placeCard from "../../images/products/wedding-stationery/place-card-watercolour/1.jpg";
-import tableNameCards from "../../images/products/wedding-stationery/table-name-cards-watercolour/1.jpg";
-import tablePlan from "../../images/products/wedding-stationery/table-plan-watercolour/1.jpg";
-import signage from "../../images/products/wedding-stationery/signage-watercolour/1.jpg";
-import rehearsalDinner from "../../images/products/wedding-stationery/rehearsal-dinner-invitation-watercolour/1.jpg";
+import weddingSuiteInvitation from "../../images/products/wedding-stationery/wedding-invitation-suite-capsule-collection/1.jpg";
+import addInsertWatercolour from "../../images/products/wedding-stationery/additional-insert-for-wedding-invitation-suite-capsule-collection/1.jpg";
+import saveTheDate from "../../images/products/wedding-stationery/save-the-date-capsule-collection/1.jpg";
+import adviceToBride from "../../images/products/wedding-stationery/advice-to-the-bride-and-groom-cards-capsule-collection/1.jpg";
+import menu from "../../images/products/wedding-stationery/menu-capsule-collection/1.jpg";
+import orderOfService from "../../images/products/wedding-stationery/order-of-service-capsule-collection/1.jpg";
+import placeCard from "../../images/products/wedding-stationery/place-card-capsule-collection/1.jpg";
+import tableNameCards from "../../images/products/wedding-stationery/table-name-cards-capsule-collection/1.jpg";
+import tablePlan from "../../images/products/wedding-stationery/table-plan-capsule-collection/1.jpg";
+import signage from "../../images/products/wedding-stationery/signage-capsule-collection/1.jpg";
+import rehearsalDinner from "../../images/products/wedding-stationery/rehearsal-dinner-invitation-capsule-collection/1.jpg";
 import advicePink from "../../images/products/bridal-shower/advice-to-the-bride-cards-pink-floral/1.jpg";
 import adviceBlue from "../../images/products/bridal-shower/advice-to-the-bride-cards-blue-floral/1.jpg";
 import bridalBlue from "../../images/products/bridal-shower/bridal-shower-invitation-blue-floral/1.jpg";
@@ -44,25 +44,25 @@ import thankYouCardFoliage from "../../images/products/greeting-cards/thank-you-
 
 const GetProductImage = (item, hasVariants) => {
   switch (item) {
-    case "wedding-invitation-suite-watercolour":
+    case "wedding-invitation-suite-capsule-collection":
       return weddingSuiteInvitation;
-    case "save-the-date-watercolour":
+    case "save-the-date-capsule-collection":
       return saveTheDate;
-    case "advice-to-the-bride-and-groom-cards-watercolour":
+    case "advice-to-the-bride-and-groom-cards-capsule-collection":
       return adviceToBride;
-    case "menu-watercolour":
+    case "menu-capsule-collection":
       return menu;
-    case "order-of-service-watercolour":
+    case "order-of-service-capsule-collection":
       return orderOfService;
-    case "place-card-watercolour":
+    case "place-card-capsule-collection":
       return placeCard;
-    case "table-name-cards-watercolour":
+    case "table-name-cards-capsule-collection":
       return tableNameCards;
-    case "table-plan-watercolour":
+    case "table-plan-capsule-collection":
       return tablePlan;
-    case "signage-watercolour":
+    case "signage-capsule-collection":
       return signage;
-    case "rehearsal-dinner-invitation-watercolour":
+    case "rehearsal-dinner-invitation-capsule-collection":
       return rehearsalDinner;
     case "advice-to-the-bride-cards-pink-floral":
       return advicePink;
@@ -118,7 +118,7 @@ const GetProductImage = (item, hasVariants) => {
       return thankYouCardFloral;
     case "thank-you-card-foliage":
       return thankYouCardFoliage;
-    case "additional-insert-for-wedding-invitation-suite-watercolour":
+    case "additional-insert-for-wedding-invitation-suite-capsule-collection":
       return addInsertWatercolour;
     default:
       return "";

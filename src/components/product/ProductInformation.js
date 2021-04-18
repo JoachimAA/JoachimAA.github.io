@@ -92,6 +92,15 @@ const ProductInformation = ({ item, setSelectedImage }) => {
   );
   const findPrice = item.tiers.find((tier) => tier.name === tierSelected);
   const price = findPrice ? findPrice.price : "Unknown";
+
+  const linkMessage = item?.variants
+    ? "Open " + variantSelected + " in Etsy"
+    : "Open in Etsy";
+
+  const productLink = item?.variants
+    ? item?.variants.find((variant) => variant.name === variantSelected).link
+    : item.link;
+
   return (
     <div>
       <div className={style.titleText}>{item.name}</div>
@@ -167,12 +176,12 @@ const ProductInformation = ({ item, setSelectedImage }) => {
       {item.link ? (
         <div className={style.basketButton}>
           <a
-            href={item.link ? item.link : ""}
+            href={productLink}
             className={style.link}
             target="_blank"
             rel="noreferrer"
           >
-            Open in Etsy
+            {linkMessage}
           </a>
         </div>
       ) : (
