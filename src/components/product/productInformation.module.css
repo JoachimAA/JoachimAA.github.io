@@ -95,7 +95,7 @@
 }
 
 @media (max-width: 768px) {
-  .informationContainer {
-    width: 100%;
+  .priceText {
+    margin: 10px 0;
   }
 }

@@ -77,5 +77,13 @@
     width: 100%;
     display: flex;
     margin: 5px 0 0 0;
+    flex-wrap: wrap;
+  }
+  .moreImageContainer {
+    width: 18%;
+    margin: 1px;
+  }
+  .informationContainer {
+    width: 100%;
   }
 }
