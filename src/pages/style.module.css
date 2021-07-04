@@ -1,0 +1,11 @@
+.introImage {
+  height: 380px;
+  display: flex;
+  margin: 0 3%;
+}
+
+@media (max-width: 760px) {
+  .introImage {
+    height: 226px;
+  }
+}

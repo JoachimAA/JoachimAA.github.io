@@ -36,6 +36,7 @@ const HamburgerMenu = ({ hamburgerClicked }) => {
         opacity: hamburgerClicked ? "1" : "0",
         pointerEvents: hamburgerClicked ? "auto" : "none",
         maxHeight: hamburgerClicked ? (showSubMenu ? "511px" : "205px") : "0px",
+        marginBottom: hamburgerClicked ? "40px" : "0px",
       }}
     >
       <div className={style.hamburgerDivider} />
@@ -95,7 +96,7 @@ const HamburgerMenu = ({ hamburgerClicked }) => {
 const Header = () => {
   const [hamburgerClicked, setHamburgerClicked] = useState(false);
   return (
-    <div>
+    <div style={{ marginBottom: "20px" }}>
       <div className={style.headerContainer}>
         <div className={style.logoHamburgerContainer}>
           <div

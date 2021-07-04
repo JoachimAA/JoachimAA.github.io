@@ -48,7 +48,7 @@
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .image {
     height: 46vw;
     width: 46vw;

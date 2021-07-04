@@ -94,7 +94,7 @@
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .priceText {
     margin: 10px 0;
   }

@@ -103,7 +103,7 @@ const ProductInformation = ({ item, setSelectedImage, windowDimesions }) => {
 
   return (
     <div>
-      {windowDimesions > 768 ? (
+      {windowDimesions > 760 ? (
         <Fragment>
           <div className={style.titleText}>{item.name}</div>
         </Fragment>

@@ -4,6 +4,7 @@ import HomeDetails from "../components/HomeDetails";
 import Layout from "../components/Layout";
 import "../css/typography.css";
 import { graphql } from "gatsby";
+import style from "./style.module.css";
 // import LogoSrc from "../images/logo.svg";
 
 const Home = ({ data }) => {
@@ -32,7 +33,7 @@ const Home = ({ data }) => {
       />
       <div style={{ backgroundColor: "#f6f6f6", height: "12vh" }} /> */}
       <Layout>
-        <div style={{ height: "380px", display: "flex", margin: "0 3%" }}>
+        <div className={style.introImage}>
           <div style={{ flex: "1", overflow: "auto" }}>
             <HomeTitle title={data.site.siteMetadata.title} />
           </div>

@@ -179,7 +179,7 @@ const Product = ({ data, location }) => {
       <Header />
 
       <div className={style.topContainer}>
-        {windowDimensions.width > 768 ? (
+        {windowDimensions.width > 760 ? (
           <BrowserProduct
             selectedImage={selectedImage}
             setSelectedImage={setSelectedImage}

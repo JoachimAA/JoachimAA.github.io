@@ -91,7 +91,7 @@
 .logoHamburgerContainer {
   display: flex;
   align-items: center;
-  padding: 0 0 40px 0;
+  padding: 0 0 26px 0;
 }
 
 .hamburger {
@@ -137,7 +137,6 @@
 }
 
 .hamburgerMenuContainer {
-  margin: 0 0 40px 0;
   transition: 0.8s ease;
   z-index: 10;
   position: relative;
@@ -151,7 +150,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .divider {
     display: none;
   }

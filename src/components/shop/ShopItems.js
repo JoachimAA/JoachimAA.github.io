@@ -16,27 +16,29 @@ const ShopItems = () => {
     }
   }
   return (
-    <div className={style.container}>
+    <div>
       {!isShopHome ? (
-        shopItems.length > 0 ? (
-          shopItems.map((item) => {
-            return (
-              <ShopItem
-                item={item}
-                key={item.name}
-                categorySlug={shopCategorySlug}
-              />
-            );
-          })
-        ) : (
-          <div>No results</div>
-        )
+        <div className={style.container}>
+          {shopItems.length > 0 ? (
+            shopItems.map((item) => {
+              return (
+                <ShopItem
+                  item={item}
+                  key={item.name}
+                  categorySlug={shopCategorySlug}
+                />
+              );
+            })
+          ) : (
+            <div>No results</div>
+          )}
+        </div>
       ) : (
-        <Fragment>
+        <div className={style.mainPageShop}>
           {shopCategories.map((category) => {
             return <ShopCategory key={category.name} category={category} />;
           })}
-        </Fragment>
+        </div>
       )}
     </div>
   );
