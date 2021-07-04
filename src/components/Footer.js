@@ -6,6 +6,7 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import LogoSrc from "../images/logo.svg";
 import { Link } from "gatsby";
 import { SocialMediaLinks } from "../utils/helpers";
+import EtsyLogo from "../images/etsy.svg";
 
 const data = require("../data.json");
 
@@ -50,6 +51,12 @@ const Footer = () => {
         </div>
       </div>
       <div className={style.socialContainer}>
+        <a href={SocialMediaLinks.etsy} target="_blank" rel="noreferrer">
+          <div
+            className={style.etsyLogo}
+            style={{ backgroundImage: `url(${EtsyLogo})` }}
+          />
+        </a>
         <a href={SocialMediaLinks.instagram} target="_blank" rel="noreferrer">
           <div className={style.icon}>
             <InstagramIcon fontSize="large" />

@@ -1,6 +1,7 @@
 export const SocialMediaLinks = {
   facebook: "https://www.facebook.com/ArtheyPaperDesigns/",
   instagram: "https://www.instagram.com/artheypaperdesigns/",
+  etsy: "https://www.etsy.com/uk/shop/ArtheyPaperDesigns/",
 };
 
 export const GetLastAreaOnUrl = (path) => {

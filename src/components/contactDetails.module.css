@@ -30,6 +30,15 @@
   color: var(--text-black);
 }
 
+.image {
+  margin: 4px 0 0 0;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 24px;
+}
+
 .contactInfo {
   margin: 0 0 0 10px;
   text-decoration: none;

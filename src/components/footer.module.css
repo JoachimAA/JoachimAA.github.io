@@ -52,6 +52,15 @@
   background-position: right;
 }
 
+.etsyLogo {
+  margin: 4px 20px 0 20px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 35px;
+}
+
 .link {
   text-decoration: none;
   color: var(--text-black);
@@ -91,5 +100,6 @@
 
   .socialContainer {
     padding-bottom: 20px;
+    justify-content: space-evenly;
   }
 }
