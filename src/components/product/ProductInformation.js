@@ -77,7 +77,7 @@ const ListItems = ({ title, listItems }) => {
   );
 };
 
-const ProductInformation = ({ item, setSelectedImage }) => {
+const ProductInformation = ({ item, setSelectedImage, windowDimesions }) => {
   const includes = item.includes && item.includes.split("?");
   const optionalIncludes =
     item.optionalIncludes && item.optionalIncludes.split("?");
@@ -103,7 +103,13 @@ const ProductInformation = ({ item, setSelectedImage }) => {
 
   return (
     <div>
-      <div className={style.titleText}>{item.name}</div>
+      {windowDimesions > 768 ? (
+        <Fragment>
+          <div className={style.titleText}>{item.name}</div>
+        </Fragment>
+      ) : (
+        <div />
+      )}
       <div
         className={style.priceText}
         style={{ fontFamily: "Montserrat-Regular" }}

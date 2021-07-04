@@ -93,3 +93,9 @@
   color: var(--text-black);
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .informationContainer {
+    width: 100%;
+  }
+}

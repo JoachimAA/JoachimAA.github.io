@@ -59,3 +59,23 @@
   cursor: pointer;
   /* minus half the height */
 }
+
+.mobileTitle {
+  font-size: 19px;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+@media (max-width: 768px) {
+  .topContainer {
+    display: block;
+  }
+  .bigPictureContainer {
+    width: 100%;
+  }
+  .moreImagesContainer {
+    width: 100%;
+    display: flex;
+    margin: 5px 0 0 0;
+  }
+}
