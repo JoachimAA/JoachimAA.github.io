@@ -49,3 +49,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 40px;
+    margin: 40px 0px 40px 0;
+  }
+}
