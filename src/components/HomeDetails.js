@@ -4,6 +4,8 @@ import LogoSrc from "../images/logo.svg";
 import { Link } from "gatsby";
 import { graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import { Fragment } from "react";
+import { SocialMediaLinks } from "../utils/helpers";
 
 const isBrowser = typeof window !== "undefined";
 
@@ -51,47 +53,36 @@ const HomeDetails = () => {
         }
       `}
       render={(data) => (
-        <div className={style.container}>
-          {windowDimensions.width < 761 ? (
+        <div>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <a
+              href={SocialMediaLinks.etsy}
+              style={{ textDecoration: "none" }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className={style.button}>Visit my Etsy Shop!</div>
+            </a>
+          </div>
+          <div className={style.container}>
             <div>
-              <div className={style.button}>
-                <Link
-                  className={style.buttonLink}
-                  to={"/shop/wedding-stationery"}
-                >
-                  <div>{"Shop Wedding Stationery"}</div>
-                </Link>
-              </div>
-              <div className={style.button}>
-                <Link className={style.buttonLink} to={"/shop/invitations"}>
-                  <div>{"Shop Invitations"}</div>
-                </Link>
-              </div>
-            </div>
-          ) : (
-            <div />
-          )}
-          <div
-            style={{
-              margin: windowDimensions.width < 761 ? "60px 0 0 0" : "0",
-            }}
-          >
-            <Link to={"/about"} className={style.link}>
-              <div className={style.about}>
-                <Img fluid={data.file.childImageSharp.fluid} />
-              </div>
+              <Link to={"/about"} className={style.link}>
+                <div className={style.about}>
+                  <Img fluid={data.file.childImageSharp.fluid} />
+                </div>
 
-              <div className={style.imageText}>About Lexie</div>
+                <div className={style.imageText}>About Lexie</div>
+              </Link>
+            </div>
+            <Link to={"/contact"} className={style.link}>
+              <div
+                style={{ backgroundImage: `url(${LogoSrc})` }}
+                className={style.image}
+              />
+
+              <div className={style.imageText}>Get in touch</div>
             </Link>
           </div>
-          <Link to={"/contact"} className={style.link}>
-            <div
-              style={{ backgroundImage: `url(${LogoSrc})` }}
-              className={style.image}
-            />
-
-            <div className={style.imageText}>Get in touch</div>
-          </Link>
         </div>
       )}
     />
