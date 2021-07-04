@@ -144,8 +144,16 @@ const BrowserProduct = ({ selectedImage, setSelectedImage, sortedImages }) => {
   );
 };
 
+const isBrowser = typeof window !== "undefined";
+
 const Product = ({ data, location }) => {
   const getWindowDimensions = () => {
+    if (!isBrowser) {
+      return {
+        width: 0,
+        height: 0,
+      };
+    }
     const { innerWidth: width, innerHeight: height } = window;
     return {
       width,
@@ -162,8 +170,10 @@ const Product = ({ data, location }) => {
       setWindowDimensions(getWindowDimensions());
     };
 
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    if (isBrowser) window.addEventListener("resize", handleResize);
+    return () => {
+      if (isBrowser) window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   //will only work with up to 9 images
@@ -173,7 +183,7 @@ const Product = ({ data, location }) => {
 
   const [selectedImage, setSelectedImage] = useState(0);
 
-  const item = location.state.item;
+  const item = location.state ? location.state.item : {};
   return (
     <div style={{ fontFamily: "Montserrat" }}>
       <Header />

@@ -5,8 +5,16 @@ import { Link } from "gatsby";
 import { graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
+const isBrowser = typeof window !== "undefined";
+
 const HomeDetails = () => {
   const getWindowDimensions = () => {
+    if (!isBrowser) {
+      return {
+        width: 0,
+        height: 0,
+      };
+    }
     const { innerWidth: width, innerHeight: height } = window;
     return {
       width,
@@ -23,8 +31,10 @@ const HomeDetails = () => {
       setWindowDimensions(getWindowDimensions());
     };
 
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    if (isBrowser) window.addEventListener("resize", handleResize);
+    return () => {
+      if (isBrowser) window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (

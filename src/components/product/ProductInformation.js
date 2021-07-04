@@ -86,11 +86,15 @@ const ProductInformation = ({ item, setSelectedImage, windowDimesions }) => {
   const materials = item.materials ?? "";
   const alsoAvailable = item.alsoAvailable && item.alsoAvailable.split("?");
   const description = item.description ?? "";
-  const [tierSelected, setTierSelected] = useState(item.tiers[0].name);
+  const [tierSelected, setTierSelected] = useState(
+    item?.tiers ? item?.tiers[0].name : ""
+  );
   const [variantSelected, setVariantSelected] = useState(
     item?.variants && item?.variants.length > 0 && item?.variants[0]?.name
   );
-  const findPrice = item.tiers.find((tier) => tier.name === tierSelected);
+  const findPrice = item.tiers
+    ? item.tiers.find((tier) => tier.name === tierSelected)
+    : undefined;
   const price = findPrice ? findPrice.price : "Unknown";
 
   const linkMessage = item?.variants
@@ -162,22 +166,26 @@ const ProductInformation = ({ item, setSelectedImage, windowDimesions }) => {
         Quantity :
       </div>
       <div className={style.quantitySelector}>
-        {item.tiers.map((tier) => (
-          <button
-            key={tier.name}
-            className={style.tierBox}
-            style={{
-              backgroundColor:
-                tier.name === tierSelected ? "var(--logo-pink)" : "#ffffff",
-              fontFamily: "Montserrat-Regular",
-            }}
-            onClick={() => {
-              setTierSelected(tier.name);
-            }}
-          >
-            {tier.name}
-          </button>
-        ))}
+        {item.tiers ? (
+          item.tiers.map((tier) => (
+            <button
+              key={tier.name}
+              className={style.tierBox}
+              style={{
+                backgroundColor:
+                  tier.name === tierSelected ? "var(--logo-pink)" : "#ffffff",
+                fontFamily: "Montserrat-Regular",
+              }}
+              onClick={() => {
+                setTierSelected(tier.name);
+              }}
+            >
+              {tier.name}
+            </button>
+          ))
+        ) : (
+          <div />
+        )}
       </div>
       {item.link ? (
         <div className={style.basketButton}>
@@ -205,7 +213,7 @@ const ProductInformation = ({ item, setSelectedImage, windowDimesions }) => {
       <IncludeListItems
         title={"Includes:"}
         listItems={includes}
-        firstTier={item.tiers[0].name}
+        firstTier={item.tiers ? item.tiers[0].name : ""}
         selectedTier={tierSelected}
       />
       <ListItems title={"Optional extras:"} listItems={optionalIncludes} />

@@ -1,12 +1,16 @@
-import React, { Fragment } from "react";
+import React from "react";
 import ShopItem from "./ShopItem";
 import style from "./shopItems.module.css";
 import { GetLastAreaOnUrl } from "../../utils/helpers";
 import ShopCategory from "./ShopCategory";
 const data = require("../../data.json");
 
+const isBrowser = typeof window !== "undefined";
+
 const ShopItems = () => {
-  const shopCategorySlug = GetLastAreaOnUrl(window.location.pathname);
+  const shopCategorySlug = GetLastAreaOnUrl(
+    isBrowser ? window.location.pathname : ""
+  );
   const shopCategories = data.shopCategories;
   const isShopHome = shopCategorySlug === "" || shopCategorySlug === "shop";
   let shopItems = [];

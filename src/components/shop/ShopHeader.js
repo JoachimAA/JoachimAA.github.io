@@ -4,8 +4,10 @@ import style from "./shopHeader.module.css";
 
 const data = require("../../data.json");
 
+const isBrowser = typeof window !== "undefined";
+
 const ShopHeader = () => {
-  const slug = GetLastAreaOnUrl(window.location.pathname);
+  const slug = GetLastAreaOnUrl(isBrowser ? window.location.pathname : "");
   const shopCat = data.shopCategories.find(
     (category) => category.slug === slug
   );
