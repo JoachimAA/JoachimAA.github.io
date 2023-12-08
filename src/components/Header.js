@@ -43,8 +43,8 @@ const HamburgerMenu = ({ hamburgerClicked }) => {
       <div className={style.hamburgerTitle}>
         <NavLink path="/">Home</NavLink>
       </div>
-      <div className={style.hamburgerDivider} />
-      <div className={style.hamburgerTitle}>
+      {/* <div className={style.hamburgerDivider} /> */}
+      {/* <div className={style.hamburgerTitle}>
         <div
           style={{ display: "flex", alignItems: "center" }}
           onClick={() => {
@@ -55,8 +55,8 @@ const HamburgerMenu = ({ hamburgerClicked }) => {
           <div>Shop</div>
           <ExpandIcon />
         </div>
-      </div>
-      <div
+      </div> */}
+      {/* <div
         style={{
           maxHeight: showSubMenu ? "306px" : "0px",
           transition: "0.8s ease",
@@ -79,7 +79,7 @@ const HamburgerMenu = ({ hamburgerClicked }) => {
             </div>
           );
         })}
-      </div>
+      </div> */}
       <div className={style.hamburgerDivider} />
       <div className={style.hamburgerTitle}>
         <NavLink path="/about">About</NavLink>
@@ -120,9 +120,9 @@ const Header = () => {
           <div className={style.headerTitle}>
             <NavLink path="/">Home</NavLink>
           </div>
-          <div className={style.verticalDivider} />
+          {/* <div className={style.verticalDivider} /> */}
 
-          <div className={style.menuitem}>
+          {/* <div className={style.menuitem}>
             <NavLink path="/shop">
               <div style={{ display: "flex", alignItems: "center" }}>
                 <div>Shop</div>
@@ -130,7 +130,7 @@ const Header = () => {
               </div>
             </NavLink>
             <SubMenu />
-          </div>
+          </div> */}
 
           <div className={style.verticalDivider} />
           <div className={style.headerTitle}>

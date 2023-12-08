@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div style={{ fontFamily: "Montserrat" }} className={style.container}>
       <div className={style.categoriesContainer}>
-        <div className={style.categoryContainer}>
+        {/* <div className={style.categoryContainer}>
           Shop
           <div className={style.categoryNamesContainer}>
             {shopCategories.map((category) => (
@@ -26,9 +26,9 @@ const Footer = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className={style.categoryContainer}>
+        <div className={style.informationContainer}>
           Information
           <div className={style.categoryNamesContainer}>
             <div className={style.categories}>
@@ -50,6 +50,7 @@ const Footer = () => {
           />
         </div>
       </div>
+
       <div className={style.socialContainer}>
         <a href={SocialMediaLinks.etsy} target="_blank" rel="noreferrer">
           <div
